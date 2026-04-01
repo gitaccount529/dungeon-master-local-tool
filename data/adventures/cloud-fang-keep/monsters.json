@@ -1,0 +1,290 @@
+[
+  {
+    "id": "lady-emer",
+    "name": "Lady Emer",
+    "size": "Medium",
+    "type": "Monstrosity",
+    "alignment": "Lawful Evil",
+    "cr": "11",
+    "role": "Solo",
+    "ac": 17,
+    "acType": "",
+    "hp": 190,
+    "hpFormula": "20d8 + 100",
+    "speed": "40 ft.",
+    "stats": { "str": 18, "dex": 24, "con": 20, "int": 16, "wis": 17, "cha": 18 },
+    "savingThrows": "STR +8, DEX +11, CON +9, WIS +7",
+    "skills": "Athletics +8, Deception +8, Perception +7, Persuasion +8, Stealth +11, Survival +7",
+    "damageImmunities": "poison",
+    "conditionImmunities": "Poisoned",
+    "senses": "darkvision 60 ft., PP 17",
+    "languages": "Common, Elvish",
+    "namedNPC": true,
+    "imageUrl": "",
+    "description": "A medusa assassin of deadly grace and vicious vanity. Lady Emer's serpentine hair writhes with independent malice, each snake tipped with venomous fangs. She moves with the fluid confidence of a predator who has never lost a hunt — employed by the Daughter of Ash, who grants her the beauty she craves.",
+    "traits": [
+      { "name": "Stone Sacrifice (3/Day)", "description": "When Emer fails a saving throw, she can choose to succeed instead by ending the effects of her Stone Gaze on a creature of her choice within 300 feet of her." }
+    ],
+    "actions": [
+      { "name": "Multiattack", "description": "Emer uses Pinning Shot or makes three attacks using Snake Bite, Longbow, or both. She also uses Stone Gaze or Envenomed Stone, if available." },
+      { "name": "Snake Bite", "description": "+11 to hit, reach 10 ft., one creature. Hit: 17 (5d6) poison damage, and the target must succeed on a DC 17 Constitution saving throw or be poisoned until the end of Emer's next turn. While poisoned in this way, the target can't take reactions." },
+      { "name": "Longbow", "description": "+11 to hit, range 150/600 ft., one target. Hit: 11 (1d8 + 7) piercing damage plus 14 (4d6) poison damage." },
+      { "name": "Pinning Shot", "description": "Emer makes three Longbow attacks against a creature touching the ground within 150 feet. If at least two hit, the target is restrained by arrows pinning their limbs to the ground. A creature restrained in this way or another creature who can reach them can use an action to pull out the arrows and end the condition." },
+      { "name": "Stone Gaze", "description": "Emer fires beams of energy from her eyes at up to three creatures she can see within 60 feet. Each target must succeed on a DC 17 Constitution saving throw or begin turning to stone (save ends at end of turn). While turning to stone, a creature's speed is reduced by 10 feet and they have disadvantage on Dexterity checks and saving throws. If targeted again while turning to stone and failing the save, speed is reduced by another 10 feet and they are dazed. If targeted a third time while dazed and turning to stone and failing, they are petrified (requires greater restoration or similar to end)." },
+      { "name": "Envenomed Stone (Recharge 5-6)", "description": "Emer utters an ancient hex. Each creature within 60 feet of her who is being turned to stone by her Stone Gaze must make a DC 17 Constitution saving throw, taking 44 (8d10) poison damage on a failed save, or half as much damage on a successful one." }
+    ],
+    "bonusActions": [
+      { "name": "Mesmerizing Eyes", "description": "The glowing eyes of Emer's snakes gaze at one creature Emer can see within 60 feet. If the target can see Emer, they must succeed on a DC 17 Wisdom saving throw or be charmed until the start of the target's next turn. A target charmed in this way must immediately use their reaction, if available, to move up to their speed in a direction of Emer's choice." }
+    ],
+    "reactions": [
+      { "name": "Blinding Mucus", "description": "When a creature Emer can see within 5 feet of her hits her with a melee attack, Emer spits venom at their eyes. The target must succeed on a DC 17 Dexterity saving throw or take 7 (2d6) acid damage and be blinded until the start of their next turn." }
+    ],
+    "legendaryActions": [],
+    "villainActions": [
+      { "name": "Villain Action 1 — I See You!", "description": "Emer uses Stone Gaze against each enemy she can see within 60 feet of her." },
+      { "name": "Villain Action 2 — Medusa's Evolution", "description": "Emer grows wings from her back, gaining a flying speed of 40 feet, then she moves up to her speed without provoking opportunity attacks. After 1 minute, the wings crumble to dust and her flying speed is lost." },
+      { "name": "Villain Action 3 — Stone Puppets", "description": "Emer mentally manipulates the stone in each creature who is being turned to stone by her Stone Gaze. Emer and each of those creatures move up to their speed then make a weapon attack against a creature of Emer's choice (no action required)." }
+    ],
+    "lairActions": [
+      { "name": "Shadowstep", "description": "Emer teleports up to 30 feet to an unoccupied space she can see." },
+      { "name": "Stony Wail", "description": "The statues in Emer's lair scream in pain. Each enemy within 60 feet of Emer who can hear the statues must succeed on a DC 15 Wisdom saving throw or be frightened of Emer until the end of initiative count 20 on the next round." },
+      { "name": "Venom Shower", "description": "Black venom rains down in a 10-foot-radius, 40-foot-high cylinder centered on a point Emer can see within 90 feet of her. Each creature in that area must succeed on a DC 15 Constitution saving throw or be poisoned until the end of initiative count 20 on the next round." }
+    ],
+    "legendarySaves": 0,
+    "hitFlavor": [
+      "Your strike catches Emer across the shoulder — she hisses, her snakes recoiling in fury.",
+      "The blow connects. Black venom weeps from the wound as her hair-serpents shriek.",
+      "Steel bites medusa flesh. For an instant, you see something human in her expression — then it hardens to cold rage.",
+      "A solid hit. Emer stumbles, but her eyes never leave yours. The snakes are already moving."
+    ],
+    "missFlavor": [
+      "Emer sidesteps with dancer's grace — she was already moving before you swung.",
+      "Your weapon whistles past as she twists away, serpent-hair lashing the air where she was.",
+      "She flows around the strike like liquid shadow. A faint, mocking smile.",
+      "The blade passes through afterimage. Her real body is already repositioning behind a statue."
+    ]
+  },
+  {
+    "id": "owlbear",
+    "name": "Owlbear",
+    "size": "Large",
+    "type": "Monstrosity",
+    "alignment": "Unaligned",
+    "cr": "3",
+    "role": "Brute",
+    "ac": 13,
+    "acType": "natural armor",
+    "hp": 82,
+    "hpFormula": "11d10 + 22",
+    "speed": "40 ft.",
+    "stats": { "str": 21, "dex": 12, "con": 15, "int": 5, "wis": 12, "cha": 6 },
+    "skills": "Perception +3",
+    "conditionImmunities": "Frightened",
+    "senses": "darkvision 60 ft., PP 13",
+    "languages": "",
+    "description": "A hulking predator with the body of a bear and the head of a giant owl. Lady Emer's owlbears patrol the keep's perimeter and guard the entrance, disguised as statues by the castle's illusion magic.",
+    "traits": [
+      { "name": "Deadly Leap", "description": "The owlbear's long jump is up to 30 feet and their high jump is 15 feet, with or without a running start. If the owlbear leaps at least 20 feet toward a target and then hits them with a Bite or Claw attack, the target must succeed on a DC 15 Strength saving throw or be knocked prone." },
+      { "name": "Keen Sight and Smell", "description": "The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell." }
+    ],
+    "actions": [
+      { "name": "Multiattack", "description": "The owlbear makes one Bite and one Claw attack." },
+      { "name": "Bite", "description": "+7 to hit, reach 10 ft., one target. Hit: 11 (1d12 + 5) piercing damage, and the owlbear can move the target 5 feet in any direction." },
+      { "name": "Claw", "description": "+7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage." },
+      { "name": "Bear Hug (Recharge 4-6)", "description": "The owlbear attempts to grab and crush a creature within 5 feet. The target must make a DC 15 Dexterity saving throw. On a failed save, the target takes 22 (4d10) bludgeoning damage and is grappled (escape DC 15). On a successful save, the target takes half damage and is not grappled. Until this grapple ends, the target is restrained and takes 5 (1d10) bludgeoning damage at the start of each of their turns." }
+    ],
+    "reactions": [
+      { "name": "Hulking Rush", "description": "When the owlbear takes damage, they can move up to half their speed without provoking opportunity attacks." }
+    ]
+  },
+  {
+    "id": "griffon",
+    "name": "Griffon",
+    "size": "Large",
+    "type": "Beast",
+    "alignment": "Unaligned",
+    "cr": "2",
+    "role": "Controller",
+    "ac": 12,
+    "acType": "",
+    "hp": 57,
+    "hpFormula": "6d10 + 24",
+    "speed": "30 ft., fly 60 ft.",
+    "stats": { "str": 18, "dex": 14, "con": 18, "int": 6, "wis": 14, "cha": 8 },
+    "savingThrows": "CON +6",
+    "skills": "Perception +4",
+    "senses": "PP 14",
+    "languages": "",
+    "description": "A majestic beast with the body of a lion and the head and wings of an eagle. Lady Emer's griffons patrol the skies around Cloud Fang Keep and nest atop the ruined tower.",
+    "traits": [
+      { "name": "Steady", "description": "The griffon has advantage on ability checks and saving throws against being knocked prone." },
+      { "name": "Swoop", "description": "If the griffon flies more than 20 feet in a straight line toward their target and then hits them with a Claw attack on the same turn, the target is grappled (escape DC 14). While the target is grappled in this way, the griffon has advantage on Beak attacks against the target but can't make Claw attacks. Grappling a Medium or smaller creature imposes no penalty on the griffon's speed." }
+    ],
+    "actions": [
+      { "name": "Multiattack", "description": "The griffon makes one Beak attack, and they can make one Claw attack, use Buffet, or use Piercing Cry." },
+      { "name": "Beak", "description": "+6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage." },
+      { "name": "Claw", "description": "+6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage." },
+      { "name": "Buffet", "description": "The griffon beats their wings in mighty gusts of wind. Each creature not grappled by the griffon within a 30-foot cone originating from the griffon must make a DC 14 Strength saving throw. On a failed save, a creature takes 5 (2d4) bludgeoning damage, is pushed 5 feet away, and is knocked prone." },
+      { "name": "Piercing Cry", "description": "The griffon lets out an earsplitting screech. Each enemy within 60 feet who can hear them must succeed on a DC 12 Wisdom saving throw or be frightened of the griffon for 1 minute (save ends at end of turn). If a creature's saving throw is successful or the effect ends, they are immune to the Piercing Cry of all griffons for 24 hours." }
+    ]
+  },
+  {
+    "id": "basilisk",
+    "name": "Basilisk",
+    "size": "Medium",
+    "type": "Monstrosity",
+    "alignment": "Unaligned",
+    "cr": "3",
+    "role": "Brute",
+    "ac": 15,
+    "acType": "natural armor",
+    "hp": 65,
+    "hpFormula": "10d8 + 20",
+    "speed": "30 ft.",
+    "stats": { "str": 16, "dex": 10, "con": 15, "int": 2, "wis": 8, "cha": 7 },
+    "damageImmunities": "poison",
+    "conditionImmunities": "Petrified, Poisoned",
+    "senses": "darkvision 60 ft., PP 9",
+    "languages": "",
+    "description": "An eight-legged reptilian horror whose gaze turns flesh to stone. Lady Emer keeps two pet basilisks named Blinkers and Blunders, each wearing a dragon-scale collar with a gold name tag.",
+    "traits": [
+      { "name": "Alchemical Ingredients", "description": "After the basilisk dies, a creature can make a DC 12 Wisdom (Medicine) check using an herbalism kit and the basilisk's gullet, destroying the gullet in the process. On a success, the creature creates three doses of a salve. One dose of this salve can be applied to a petrified creature as an action, and 1 minute after the salve is applied, the petrified condition ends for that creature." },
+      { "name": "Toxic Ichor", "description": "A creature who deals piercing or slashing damage to the basilisk while within 5 feet of them takes 2 (1d4) poison damage." }
+    ],
+    "actions": [
+      { "name": "Multiattack", "description": "The basilisk uses Petrifying Eye Beams and makes one Bite attack or uses Poison Fumes, if available." },
+      { "name": "Bite", "description": "+5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 5 (2d4) poison damage." },
+      { "name": "Petrifying Eye Beams", "description": "The basilisk targets one or two creatures they can see within 30 feet. Each target must succeed on a DC 12 Constitution saving throw or be restrained as they magically begin to turn to stone. Until the end of the restrained creature's next turn, they or an ally within 5 feet of them can use an action to cut the encroaching stone from their body using a slashing weapon, taking 13 (2d12) slashing damage that can't be reduced, ending the restrained condition. A creature restrained in this way must repeat the saving throw at the end of their turn. On a success, the effect ends. On a fail, the creature is petrified until freed by greater restoration or similar." },
+      { "name": "Poison Fumes (Recharge 4-6)", "description": "The basilisk exhales poisonous fumes in a 15-foot cone. Each creature in this area must make a DC 12 Constitution saving throw, taking 10 (4d4) poison damage on a failed save, or half as much on a success." }
+    ],
+    "reactions": [
+      { "name": "Poison Splash", "description": "When the basilisk takes piercing or slashing damage, their wound spews poison. Each creature within 10 feet of the basilisk must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute (save ends at end of turn)." }
+    ]
+  },
+  {
+    "id": "wyvern",
+    "name": "Wyvern",
+    "size": "Large",
+    "type": "Dragon",
+    "alignment": "Unaligned",
+    "cr": "6",
+    "role": "Controller",
+    "ac": 12,
+    "acType": "natural armor",
+    "hp": 119,
+    "hpFormula": "14d10 + 42",
+    "speed": "20 ft., fly 60 ft.",
+    "stats": { "str": 17, "dex": 12, "con": 16, "int": 4, "wis": 14, "cha": 6 },
+    "skills": "Athletics +6, Perception +5",
+    "damageImmunities": "acid",
+    "senses": "darkvision 60 ft., PP 15",
+    "languages": "",
+    "description": "A hot-tempered dragon that lounges atop the 40-foot marble pedestal in the stone garden. Her favorite entertainment is poisoning trespassers moments before Lady Emer petrifies them.",
+    "traits": [
+      { "name": "Stubborn Rage", "description": "The wyvern is immune to the frightened and stunned conditions while they have fewer than half their hit points or are within 60 feet of another wyvern they can hear or see." }
+    ],
+    "actions": [
+      { "name": "Multiattack", "description": "The wyvern makes one Stinger attack and one Bite attack. They can replace one attack with a use of Tail Sweep." },
+      { "name": "Stinger", "description": "+6 to hit, reach 15 ft., one target. Hit: 13 (3d6 + 3) piercing damage. The target must succeed on a DC 14 Constitution saving throw or take 7 (2d6) acid damage at the start of each of their turns for 1 minute (save ends at end of turn)." },
+      { "name": "Bite", "description": "+6 to hit, reach 10 ft., one target. Hit: 16 (2d12 + 3) piercing damage. If the target is Large or smaller, they are grappled (escape DC 13). Until this grapple ends, the target is restrained and the wyvern can't bite another target." },
+      { "name": "Tail Sweep", "description": "The wyvern swipes their tail in a 15-foot cone. Each creature in that area must succeed on a DC 14 Strength saving throw or take 14 (2d10 + 3) bludgeoning damage and be pushed up to 10 feet away from the wyvern." }
+    ],
+    "bonusActions": [
+      { "name": "Seek", "description": "The wyvern takes the Search action." }
+    ]
+  },
+  {
+    "id": "blood-borne-ooze",
+    "name": "Blood-Borne Ooze",
+    "size": "Tiny",
+    "type": "Ooze",
+    "alignment": "Typically Neutral Evil",
+    "cr": "1/4",
+    "role": "Ambusher",
+    "ac": 13,
+    "acType": "natural armor",
+    "hp": 14,
+    "hpFormula": "4d4 + 4",
+    "speed": "20 ft.",
+    "stats": { "str": 8, "dex": 15, "con": 13, "int": 1, "wis": 10, "cha": 2 },
+    "skills": "Stealth +4",
+    "conditionImmunities": "Blinded, Charmed, Deafened, Exhaustion, Flanked, Prone",
+    "senses": "blindsight 60 ft. (blind beyond this radius), PP 10",
+    "languages": "",
+    "description": "A parasitic ooze that hides within living creatures and feeds on their blood. Three of these lurk in the owlbear nest in the entrance hall, and they emerge from the first two owlbears to die.",
+    "traits": [
+      { "name": "Amorphous", "description": "The ooze can move through a space as narrow as 1 inch wide without squeezing." },
+      { "name": "False Appearance", "description": "While the ooze remains motionless, they are indistinguishable from a pool of blood." }
+    ],
+    "actions": [
+      { "name": "Pseudopod", "description": "+4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage plus 2 (1d4) necrotic damage. If the target is a creature who isn't a Construct or Undead, they must succeed on a DC 11 Constitution saving throw or the ooze melds into the target's body. While inside a creature, the ooze has total cover against attacks and effects originating outside the host. If the host takes 5+ damage from a single source other than the ooze, the ooze must succeed on a DC 12 Constitution saving throw or exit the host." },
+      { "name": "Crimson Feast (Inside Host Only)", "description": "The ooze consumes their host creature's bodily fluids. The host must make a DC 11 Constitution saving throw. On a failed save, the host takes 5 (2d4) necrotic damage and is poisoned until the end of their next turn. On a success, half damage and not poisoned." }
+    ]
+  },
+  {
+    "id": "crux-of-frost",
+    "name": "Crux of Frost",
+    "size": "Medium",
+    "type": "Elemental (Water)",
+    "alignment": "Any Alignment",
+    "cr": "8",
+    "role": "Controller",
+    "ac": 16,
+    "acType": "natural armor",
+    "hp": 135,
+    "hpFormula": "30d8",
+    "speed": "30 ft.",
+    "stats": { "str": 12, "dex": 14, "con": 10, "int": 12, "wis": 16, "cha": 18 },
+    "skills": "Deception +10, Insight +9, Perception +6",
+    "damageImmunities": "cold, poison",
+    "conditionImmunities": "Invisible, Poisoned",
+    "senses": "darkvision 60 ft., PP 16",
+    "languages": "Aquan, Common, plus languages known by a creature reflected by Frosted Reflection",
+    "description": "An ice elemental that reflects the appearance of creatures it has seen, creating frostbitten duplicates. Alternative parlor encounter creature if the living snow mechanic is too complex.",
+    "traits": [
+      { "name": "Scintillating", "description": "The crux can't benefit from being invisible." }
+    ],
+    "actions": [
+      { "name": "Multiattack", "description": "The crux makes two Rimeglass Touch attacks, and they can use Frosted Reflection or It Stares Back, if available." },
+      { "name": "Rimeglass Touch", "description": "+7 to hit, reach 5 ft. or range 60 ft., one target. Hit: 17 (3d8 + 4) cold damage, and the target can't see or hear creatures other than themself and the crux until the start of the crux's next turn." },
+      { "name": "Frosted Reflection", "description": "The crux reflects the appearance of a specific Medium or Small creature they've seen within the last week. This appearance is illusory and imperfect, showing a frostbitten version of the creature. The illusion lasts until the crux takes thunder damage, uses this action again, or is incapacitated." },
+      { "name": "It Stares Back (Recharge 5-6)", "description": "The crux imposes fragility on a creature within 60 feet who is reflected by the crux's Frosted Reflection. If the target can see the crux, the target must make a DC 15 Wisdom saving throw. On a failed save, the target is frightened of the crux for 1 minute (save ends at end of turn), or until the crux stops reflecting them. While frightened in this way, whenever the target takes damage, they take an extra 11 (2d10) psychic damage. On a successful save, the target isn't frightened and is immune to all cruxes' It Stares Back for 24 hours." }
+    ]
+  },
+  {
+    "id": "gem-jelly",
+    "name": "Gem Jelly",
+    "size": "Large",
+    "type": "Ooze",
+    "alignment": "Unaligned",
+    "cr": "9",
+    "role": "Brute",
+    "ac": 10,
+    "acType": "20 in crystalline form",
+    "hp": 152,
+    "hpFormula": "16d10 + 64",
+    "speed": "25 ft., climb 25 ft. (0 in crystalline form)",
+    "stats": { "str": 18, "dex": 10, "con": 18, "int": 6, "wis": 14, "cha": 4 },
+    "skills": "Stealth +4",
+    "damageResistances": "acid; bludgeoning, piercing, and slashing from mundane attacks",
+    "conditionImmunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone",
+    "senses": "blindsight 120 ft., PP 12",
+    "languages": "",
+    "description": "A psionic ooze that can harden into a crystalline form. Alternative parlor encounter creature if the living snow mechanic is too complex.",
+    "traits": [
+      { "name": "Amorphous", "description": "The gem jelly can move through a space as narrow as 1 inch wide without squeezing." },
+      { "name": "False Appearance", "description": "While the jelly remains motionless, they are indistinguishable from a natural crystal formation." }
+    ],
+    "actions": [
+      { "name": "Multiattack", "description": "The gem jelly makes two Pseudopod attacks." },
+      { "name": "Pseudopod (True Form Only)", "description": "+8 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) piercing damage." },
+      { "name": "Crystalline Shatter (Crystalline Form Only)", "description": "The jelly shatters their hardened outer layer, returning to true form and sending crystal shrapnel in all directions. Each creature within 10 feet must make a DC 16 Dexterity saving throw, taking 36 (8d8) piercing damage on a failed save, or half on a success. Gem jellies are immune to this damage." }
+    ],
+    "bonusActions": [
+      { "name": "Harden", "description": "The gem jelly transforms into a psionically hardened crystalline form or back into their true form. While in crystalline form, the jelly's AC increases to 20, their speed becomes 0, they can't make Pseudopod attacks, they have disadvantage on Dexterity saving throws, and they gain vulnerability to thunder damage." }
+    ],
+    "reactions": [
+      { "name": "Reactive Shatter (Crystalline Form Only)", "description": "When the jelly takes thunder damage, they use Crystalline Shatter." }
+    ]
+  }
+]

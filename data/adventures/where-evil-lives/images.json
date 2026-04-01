@@ -1,0 +1,20 @@
+[
+  {
+    "id": "monstrous-crow",
+    "filename": "monstrous-crow.png",
+    "title": "Monstrous Crow of the Scarlet Rot",
+    "description": "The crow — a towering horror of matted feathers and tumor-riddled flesh, standing in the scarlet-mire ruins."
+  },
+  {
+    "id": "ruined-temple",
+    "filename": "ruined-temple.png",
+    "title": "Ruined Temple of Scarlet Rot",
+    "description": "The battlefield — a cathedral skeleton drowning in scarlet mire, littered with bones and broken siege engines."
+  },
+  {
+    "id": "screenshot-3",
+    "filename": "Test.png",
+    "title": "Screenshot 3",
+    "description": ""
+  }
+]

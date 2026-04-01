@@ -1,0 +1,128 @@
+[
+  {
+    "id": "zenith-aastrika",
+    "filename": "monsters/zenith-aastrika.webp",
+    "title": "Zenith Aastrika",
+    "description": "The Warlord-Priestess of the Sunlight Legion. Show when the party first encounters the Zenith at the Crater of the Core (Z9)."
+  },
+  {
+    "id": "fire-giant-lightbearer",
+    "filename": "monsters/fire-giant-lightbearer.jpg",
+    "title": "Fire Giant Lightbearer",
+    "description": "A Lightbearer in spiritual meditation. Use for sanctuary scenes or when the party encounters healers."
+  },
+  {
+    "id": "fire-giant-red-fist",
+    "filename": "monsters/fire-giant-red-fist.webp",
+    "title": "Fire Giant Red Fist",
+    "description": "An elite warrior-monk of the Sunlight Legion. Use for the Crucible (Z3) or any Red Fist encounter."
+  },
+  {
+    "id": "fire-giant-trooper",
+    "filename": "monsters/fire-giant-trooper.jpg",
+    "title": "Fire Giant Trooper",
+    "description": "A rank-and-file soldier of the Enclave. Use for guard encounters or the Barracks (Z8)."
+  },
+  {
+    "id": "basalt-stone-giant",
+    "filename": "monsters/basalt-stone-giant.jpg",
+    "title": "Ostios — Basalt Stone Giant",
+    "description": "The master smith hired by Aastrika. Show when the party enters the Forge (Z5)."
+  },
+  {
+    "id": "hellhound",
+    "filename": "monsters/hellhound.webp",
+    "title": "Hellhound",
+    "description": "An infernal hound hardened by the volcanic heat. Use for patrol encounters or guard beasts."
+  },
+  {
+    "id": "enclave-exterior",
+    "filename": "gallery/roaring-peak.webp",
+    "title": "Roaring Peak",
+    "description": "The volcanic exterior of the Molten Enclave. Show during the Approach or as an establishing shot."
+  },
+  {
+    "id": "crown-of-flame",
+    "filename": "gallery/crown-of-flame.webp",
+    "title": "The Crown of Flame",
+    "description": "Aastrika's Crown with the hagstone set at its center. Show when the party first learns about the crown or during the Crown Heist."
+  },
+  {
+    "id": "crater-of-the-core",
+    "filename": "gallery/magma-crater.webp",
+    "title": "The Crater of the Core",
+    "description": "The sacred lava pool at the heart of the Enclave (Z9). Show when entering the boss room."
+  },
+  {
+    "id": "the-forge",
+    "filename": "gallery/rot.png",
+    "title": "The Forge",
+    "description": "The massive magma forge with Hurga and Ostios at work (Z5). Show when entering the Forge."
+  },
+  {
+    "id": "monument-of-molten-blades",
+    "filename": "gallery/monument-of-molten-blades.svg",
+    "title": "Monument of Molten Blades",
+    "description": "A sculpture forged from the weapons of dead adventurers. Show for dramatic effect in the Forge."
+  },
+  {
+    "id": "the-crucible",
+    "filename": "gallery/Crucible.png",
+    "title": "The Crucible",
+    "description": "The fighting pit where Red Fists spar (Z3). Show when the party witnesses or enters the arena."
+  },
+  {
+    "id": "sleeping-quarters",
+    "filename": "gallery/Sleeping Quarters.png",
+    "title": "The Sleeping Quarters",
+    "description": "The barracks where fire giants sleep in massive stone slab beds (Z8). Show when approaching the barracks."
+  },
+  {
+    "id": "entering-the-enclave",
+    "filename": "scenes/entering-the-enclave.jpg",
+    "title": "Entering the Enclave",
+    "description": "The labyrinthine magma tunnels beneath Roaring Peak. Show when beginning the tunnel navigation challenge."
+  },
+  {
+    "id": "sneaking-past-the-crucible",
+    "filename": "scenes/sneaking-past-the-crucible.jpg",
+    "title": "Sneaking Past the Crucible",
+    "description": "The Crucible arena viewed from the shadows. Show during the stealth challenge past the fighting pit."
+  },
+  {
+    "id": "the-forge-fumes",
+    "filename": "scenes/the-forge-fumes.jpg",
+    "title": "The Forge Fumes",
+    "description": "The toxic forge where Hurga hammers and sulfur fills the air. Show during the forge crossing challenge."
+  },
+  {
+    "id": "the-sleeping-barracks",
+    "filename": "scenes/the-sleeping-barracks.jpg",
+    "title": "The Sleeping Barracks",
+    "description": "Rows of sleeping fire giants in their stone slab beds. Show during the barracks stealth challenge."
+  },
+  {
+    "id": "hagstone-extraction",
+    "filename": "scenes/hagstone-extraction.jpg",
+    "title": "Crown Heist",
+    "description": "The Crater of the Core where Aastrika meditates with the Crown. Show during the hagstone extraction challenge."
+  },
+  {
+    "id": "escape-the-enclave",
+    "filename": "scenes/escape-the-enclave.jpg",
+    "title": "Escape the Enclave",
+    "description": "Collapsing tunnels and surging lava during the desperate escape. Show during the escape challenge."
+  },
+  {
+    "id": "screenshot-5",
+    "filename": "Screenshot_5.jpg",
+    "title": "Basilisk",
+    "description": ""
+  },
+  {
+    "id": "screenshot-6",
+    "filename": "Screenshot_6.jpg",
+    "title": "???",
+    "description": ""
+  }
+]

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="heat" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="40%" stop-color="#8b2500"/>
+      <stop offset="100%" stop-color="#1a0a00"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#heat)"/>
+  <rect x="300" y="200" width="200" height="300" fill="#3d2010" rx="10"/>
+  <rect x="320" y="350" width="160" height="100" fill="#ff6b35" opacity="0.8" rx="5"/>
+  <rect x="340" y="370" width="120" height="60" fill="#ffb347" opacity="0.6" rx="3"/>
+  <rect x="250" y="180" width="300" height="30" fill="#4a2c17"/>
+  <line x1="350" y1="180" x2="350" y2="100" stroke="#666" stroke-width="8"/>
+  <line x1="450" y1="180" x2="450" y2="120" stroke="#666" stroke-width="6"/>
+  <circle cx="350" cy="90" r="20" fill="#555" opacity="0.4"/>
+  <circle cx="450" cy="110" r="15" fill="#555" opacity="0.3"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="28" fill="#ff9500" opacity="0.7">The Forge</text>
+</svg>

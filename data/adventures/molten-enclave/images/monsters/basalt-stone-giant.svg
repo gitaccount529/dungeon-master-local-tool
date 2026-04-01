@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="basalt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#616161"/>
+      <stop offset="30%" stop-color="#424242"/>
+      <stop offset="60%" stop-color="#37474F"/>
+      <stop offset="100%" stop-color="#263238"/>
+    </linearGradient>
+    <linearGradient id="obsidianVein" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#78909C"/>
+      <stop offset="50%" stop-color="#546E7A"/>
+      <stop offset="100%" stop-color="#37474F"/>
+    </linearGradient>
+    <filter id="runeGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="bladeRune" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B0BEC5"/>
+      <stop offset="100%" stop-color="#78909C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="url(#bg)"/>
+
+  <!-- Faint moonlight from above -->
+  <ellipse cx="200" cy="50" rx="150" ry="60" fill="#78909C" opacity="0.05"/>
+
+  <!-- Body - massive, angular, stone-like -->
+  <path d="M200 55 Q235 50 255 75 L275 120 Q290 150 295 185 L300 250 Q305 290 300 330 L295 390 Q290 430 275 455 L255 475 Q235 485 200 485 Q165 485 145 475 L125 455 Q110 430 105 390 L100 330 Q95 290 100 250 L105 185 Q110 150 125 120 L145 75 Q165 50 200 55Z" fill="url(#basalt)"/>
+
+  <!-- Head - angular, stone-carved -->
+  <path d="M200 45 Q225 40 240 55 L245 75 Q240 95 225 100 Q215 102 200 103 Q185 102 175 100 Q160 95 155 75 L160 55 Q175 40 200 45Z" fill="#455A64"/>
+
+  <!-- Eyes - liquid quartz pools -->
+  <ellipse cx="185" cy="72" rx="7" ry="5" fill="#1a1a1a"/>
+  <ellipse cx="185" cy="72" rx="5" ry="3.5" fill="#B0BEC5" opacity="0.8" filter="url(#runeGlow)"/>
+  <ellipse cx="215" cy="72" rx="7" ry="5" fill="#1a1a1a"/>
+  <ellipse cx="215" cy="72" rx="5" ry="3.5" fill="#B0BEC5" opacity="0.8" filter="url(#runeGlow)"/>
+
+  <!-- Obsidian veins across body -->
+  <g stroke="#546E7A" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M165 120 Q175 150 170 180 Q165 210 175 240"/>
+    <path d="M235 120 Q225 150 230 180 Q235 210 225 240"/>
+    <path d="M150 200 Q170 195 190 200 Q200 202 210 200 Q230 195 250 200"/>
+    <path d="M140 300 Q155 290 170 295 Q185 300 195 295"/>
+    <path d="M260 300 Q245 290 230 295 Q215 300 205 295"/>
+    <path d="M180 350 Q190 340 200 345 Q210 340 220 350"/>
+  </g>
+
+  <!-- Glittering obsidian highlights -->
+  <g fill="#90A4AE" opacity="0.3">
+    <circle cx="175" cy="155" r="1.5"/>
+    <circle cx="228" cy="170" r="1"/>
+    <circle cx="160" cy="225" r="1.5"/>
+    <circle cx="242" cy="240" r="1"/>
+    <circle cx="190" cy="300" r="1.2"/>
+    <circle cx="215" cy="320" r="1"/>
+    <circle cx="170" cy="370" r="1.5"/>
+    <circle cx="235" cy="380" r="1"/>
+  </g>
+
+  <!-- Arms - thick, angular -->
+  <path d="M125 120 Q100 135 85 160 L70 200 Q60 225 65 240 L75 245 Q70 230 75 210 L90 175 Q100 155 115 145Z" fill="url(#basalt)"/>
+  <path d="M275 120 Q300 135 315 160 L330 200 Q340 225 335 240 L325 245 Q330 230 325 210 L310 175 Q300 155 285 145Z" fill="url(#basalt)"/>
+
+  <!-- Left hand holding rune-signed blade -->
+  <rect x="55" y="235" width="25" height="18" rx="4" fill="#455A64"/>
+
+  <!-- Rune-signed blade (left) -->
+  <path d="M67 250 L60 380 L67 400 L74 380 L67 250Z" fill="url(#bladeRune)"/>
+  <!-- Blade edge highlight -->
+  <path d="M67 255 L63 370 L67 390" stroke="#CFD8DC" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- Rune etchings on blade -->
+  <g filter="url(#runeGlow)" opacity="0.6">
+    <path d="M63 280 L71 280 M67 275 L67 285" stroke="#B0BEC5" stroke-width="1.5" fill="none"/>
+    <path d="M64 310 L70 310 M64 315 L70 305" stroke="#B0BEC5" stroke-width="1.5" fill="none"/>
+    <path d="M65 340 L69 340 M65 345 L69 335 M67 330 L67 350" stroke="#B0BEC5" stroke-width="1.5" fill="none"/>
+    <path d="M64 365 L70 365" stroke="#B0BEC5" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- Right hand -->
+  <rect x="320" y="235" width="25" height="18" rx="4" fill="#455A64"/>
+
+  <!-- Angular stone features - shoulder plates -->
+  <path d="M135 110 L120 120 L115 135 L130 125Z" fill="#546E7A" opacity="0.5"/>
+  <path d="M265 110 L280 120 L285 135 L270 125Z" fill="#546E7A" opacity="0.5"/>
+
+  <!-- Cracks in the stone body -->
+  <g stroke="#263238" stroke-width="1.5" fill="none" opacity="0.4">
+    <path d="M180 130 L175 145 Q180 150 178 160"/>
+    <path d="M220 130 L225 145 Q220 150 222 160"/>
+    <path d="M155 280 L160 295 Q155 305 160 310"/>
+    <path d="M245 280 L240 295 Q245 305 240 310"/>
+  </g>
+
+  <!-- Ground - dark stone floor -->
+  <path d="M0 475 Q100 468 200 472 Q300 468 400 475 L400 500 L0 500Z" fill="#212121"/>
+
+  <!-- Stone giant can blend with environment - subtle rock formations at base -->
+  <path d="M80 475 Q90 460 100 475" fill="#37474F" opacity="0.3"/>
+  <path d="M300 475 Q310 462 320 475" fill="#37474F" opacity="0.3"/>
+</svg>

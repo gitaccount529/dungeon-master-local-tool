@@ -1,0 +1,12 @@
+{
+  "id": "where-evil-lives",
+  "name": "Where Evil Lives",
+  "description": "An MCDM adventure. The Keepers descend into a ruined temple consumed by the Scarlet Rot, where a Monstrous Crow wearing stolen trinkets holds Corwyn captive.",
+  "headerTitle": {
+    "primary": "WHERE EVIL",
+    "secondary": "LIVES"
+  },
+  "referencePdf": null,
+  "createdAt": "2026-03-30T00:00:00.000Z",
+  "updatedAt": "2026-03-30T00:00:00.000Z"
+}

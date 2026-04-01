@@ -1,0 +1,244 @@
+[
+  {
+    "id": "entering-the-enclave",
+    "name": "Entering the Enclave",
+    "description": "The labyrinthine magma tunnels beneath Roaring Peak twist and branch in every direction. The Sunlight Legion carved symbols of a rising sun over a mountain peak to mark their path — but finding them requires knowledge or sharp eyes. The tunnels are sweltering, the air thick with sulfur, and the sooty footprints of fire giants mark the stone like a trail of ash.",
+    "imageUrl": "scenes/entering-the-enclave.jpg",
+    "successThreshold": 3,
+    "failureThreshold": 2,
+    "skills": [
+      {
+        "skill": "History",
+        "dc": 17,
+        "description": "Identify the rising sun symbol as the emblem of the Sunlight Legion and plot a course through the tunnels using the wall carvings."
+      },
+      {
+        "skill": "Survival",
+        "dc": 15,
+        "description": "Follow the gigantic sooty footprints back through the magma tunnels to the lair entrance."
+      },
+      {
+        "skill": "Perception",
+        "dc": 14,
+        "description": "Spot the carved sun symbols in the dim volcanic light before taking a wrong turn."
+      },
+      {
+        "skill": "Constitution Save",
+        "dc": 15,
+        "description": "Endure the sweltering heat of the deep tunnels without succumbing to exhaustion. Characters in medium or heavy armor have disadvantage."
+      },
+      {
+        "skill": "Athletics",
+        "dc": 14,
+        "description": "Navigate the 3-foot-high giant-sized stone steps without losing footing on the mineral-slick surfaces."
+      }
+    ],
+    "successText": "The party navigates the labyrinth of magma tunnels without incident, arriving at the entrance stairs (Z1) with their strength intact. The carved sun symbols guided them true — the Sunlight Legion's path laid bare before those with the knowledge to read it. Drake recognizes the discipline in the carvings — these are soldiers who built something permanent, not raiders passing through.",
+    "failureText": "The tunnels twist and double back, and the party spends precious hours wandering in the sweltering dark. Each character must succeed on a DC 15 Constitution saving throw or gain 1 level of exhaustion — the heat is relentless, and the sulfur burns the lungs. Characters with fire resistance or immunity succeed automatically. When they finally stumble upon the entrance (Z1), they are weakened, and the Daughter of Ash's shadow seems to thicken in the volcanic haze — as if she's watching, waiting for them to fail before they even begin."
+  },
+  {
+    "id": "sneaking-past-the-crucible",
+    "name": "Sneaking Past the Crucible",
+    "description": "The Crucible (Z3) is a massive chamber with a pyramidal ceiling rising fifty feet high. An iron railing surrounds a twenty-foot-deep fighting pit where two Red Fists spar while six Troopers cheer and a Lightbearer stands ready. The clang of fists on flesh and the roar of the crowd provide cover — but nine pairs of giant eyes are a lot to avoid.",
+    "imageUrl": "scenes/sneaking-past-the-crucible.jpg",
+    "successThreshold": 3,
+    "failureThreshold": 2,
+    "skills": [
+      {
+        "skill": "Stealth",
+        "dc": 19,
+        "description": "Move silently through the chamber while the giants are absorbed in the duel. This is a group check — every character must contribute."
+      },
+      {
+        "skill": "Deception",
+        "dc": 16,
+        "description": "If spotted, bluff your way through — claim to be emissaries, traders, or servants of a rival giant lord."
+      },
+      {
+        "skill": "Performance",
+        "dc": 15,
+        "description": "Create a distraction — mimic the sound of a collapsing tunnel, a distant alarm, or the crash of falling equipment to draw attention away."
+      },
+      {
+        "skill": "Investigation",
+        "dc": 14,
+        "description": "Study the giants' attention patterns and find the safest route through the chamber while they're focused on the fight."
+      },
+      {
+        "skill": "Acrobatics",
+        "dc": 13,
+        "description": "Squeeze through the iron portcullis gates (sized for Huge creatures) without making noise or getting stuck."
+      }
+    ],
+    "successText": "The party slips through the Crucible like shadows between the pillars, the thunderous applause of the giant spectators masking every footfall. The two Red Fists continue their brutal sparring match, utterly unaware that the very prey they'd love to fight just passed within arm's reach. Rook's light steps and the rogue's practiced stealth carry the group — this is what they trained for in their months of recovery.",
+    "failureText": "A Trooper's gaze sweeps the wrong direction at the wrong moment. \"SMALL-FOLK!\" The bellowed alarm cuts through the arena noise like a thunderclap. The dueling Red Fists stop mid-swing, their burning fists still raised. The Lightbearer's hands begin to glow. The party has seconds before nine giants converge on their position. Roll initiative — or run deeper into the Enclave and pray the noise doesn't follow."
+  },
+  {
+    "id": "the-forge-fumes",
+    "name": "The Forge Fumes",
+    "description": "The Forge (Z5) is dominated by a magma forge on the west wall that fills the air with toxic sulfur so thick it burns the eyes and scorches the lungs. The fumes are poisonous to anything that isn't a fire giant or stone giant. Hurga hammers metal at an anvil while Ostios supervises with the patience of a mountain. The party must cross through without choking — or being noticed.",
+    "imageUrl": "scenes/the-forge-fumes.jpg",
+    "successThreshold": 3,
+    "failureThreshold": 2,
+    "skills": [
+      {
+        "skill": "Constitution Save",
+        "dc": 15,
+        "description": "Hold your breath and push through the worst of the toxic fumes without succumbing to the poison."
+      },
+      {
+        "skill": "Stealth",
+        "dc": 16,
+        "description": "Move through the forge unseen while Hurga and Ostios are focused on their work. Group check."
+      },
+      {
+        "skill": "Arcana",
+        "dc": 14,
+        "description": "Use magical means to create a bubble of clean air or neutralize the toxic gases around the party."
+      },
+      {
+        "skill": "Nature",
+        "dc": 13,
+        "description": "Identify the gas composition and find pockets of breathable air between the work stations."
+      },
+      {
+        "skill": "Medicine",
+        "dc": 13,
+        "description": "Treat party members showing signs of sulfur inhalation before the poisoning becomes critical."
+      },
+      {
+        "skill": "Survival",
+        "dc": 14,
+        "description": "Fashion crude gas filters from cloth and volcanic minerals found in the storage area."
+      }
+    ],
+    "successText": "The party emerges from the forge coughing but intact, the toxic fumes left behind as they press deeper into the Enclave. Hurga never looked up from her hammering, and Ostios — if he noticed anything — chose to remain still as stone and say nothing. Perhaps the old smith has his own reasons for letting outsiders pass. Drake notices the Monument of Molten Blades as they pass — a sculpture made from the weapons of dead adventurers. A reminder of what failure looks like.",
+    "failureText": "The fumes overwhelm. Each character who isn't immune to poison must succeed on a DC 15 Constitution saving throw or be poisoned until the start of their next turn. Poisoned characters stumble and cough, making noise — Hurga looks up from her anvil with wide eyes. Whether she raises the alarm or not depends on how the party handles this moment. Either way, the forge has taken its toll, and the deeper chambers await with burning lungs."
+  },
+  {
+    "id": "the-sleeping-barracks",
+    "name": "The Sleeping Barracks",
+    "description": "The Barracks (Z8) consists of two rooms, each lined with eight enormous stone slab beds covered in leather blankets. Fifteen Fire Giant Troopers and one Red Fist sleep in shifts — their deep, rumbling snores shake loose pebbles from the ceiling. The party must cross through both rooms. One wrong step, one too-loud breath, and the garrison wakes.",
+    "imageUrl": "scenes/the-sleeping-barracks.jpg",
+    "successThreshold": 4,
+    "failureThreshold": 2,
+    "skills": [
+      {
+        "skill": "Stealth",
+        "dc": 10,
+        "description": "Move silently between the massive beds and sleeping giants. This is a group check for each room — deceptively easy DC, but failure is catastrophic."
+      },
+      {
+        "skill": "Perception",
+        "dc": 13,
+        "description": "Notice which giants are light sleepers — the ones who twitch, the ones whose breathing is shallow — and plan your route accordingly."
+      },
+      {
+        "skill": "Sleight of Hand",
+        "dc": 15,
+        "description": "Carefully open one of the leather pouches at the foot of a giant's bed to check for treasure without waking the occupant."
+      },
+      {
+        "skill": "Animal Handling",
+        "dc": 14,
+        "description": "Calm a restless giant who stirs in their sleep — a gentle hand, a low hum, anything to keep them from waking fully."
+      },
+      {
+        "skill": "Acrobatics",
+        "dc": 13,
+        "description": "Nimbly navigate the tight spaces between oversized furniture without bumping a bed frame or stepping on a discarded weapon."
+      }
+    ],
+    "successText": "The party passes through both barracks rooms like ghosts. Fifteen giants continue to slumber, dreaming of fire and glory, their leather blankets rising and falling like tides. The rogue's hands are steady — years of practice paying off in the most terrifying room they've ever robbed. The Red Fist snores on, oblivious. The way forward to the Crater of the Core is clear.",
+    "failureText": "A giant's hand closes around a spear in their sleep. Their eyes snap open — enormous, orange, and furious. \"INTRUDERS!\" The barracks erupts into chaos. Giants lurch from their beds, grabbing weapons in the dark, leather blankets tangling around legs as they scramble to fight. Troopers wake in waves — 2 per round join the fray. The party has moments to fight or flee before the entire garrison is on their feet. The rogue knows this feeling — the same desperate scramble as the night the Daughter of Ash's forces descended on them at the gravesite."
+  },
+  {
+    "id": "hagstone-extraction",
+    "name": "Crown Heist",
+    "description": "Aastrika's Crown sits upon the Zenith's brow as she meditates at the Crater of the Core (Z9). The crown is a rare magic item — it grants fire resistance, allows teleportation through flames and lava pools, and is the key to accessing the Secret Sanctum (Z10). The hagstone set within it is what the party truly needs. Removing it requires getting past Aastrika, her guards, the sacred braziers, and the Core itself — the most sacred site of the Sunlight Legion.",
+    "imageUrl": "scenes/hagstone-extraction.jpg",
+    "successThreshold": 5,
+    "failureThreshold": 3,
+    "skills": [
+      {
+        "skill": "Arcana",
+        "dc": 16,
+        "description": "Understand the crown's magical properties — its connection to the lava pools, its fire resistance enchantment — and identify how to safely remove the hagstone without triggering a magical backlash."
+      },
+      {
+        "skill": "Sleight of Hand",
+        "dc": 17,
+        "description": "Lift the crown from Aastrika's brow while she meditates at the Core, or extract the hagstone from the crown's setting without disturbing the enchantment."
+      },
+      {
+        "skill": "Stealth",
+        "dc": 18,
+        "description": "Approach the meditating Zenith without alerting her or the five Troopers and Lightbearer meditating alongside her. The room is brightly lit — there are no shadows to hide in."
+      },
+      {
+        "skill": "Religion",
+        "dc": 14,
+        "description": "Recognize the meditation ritual the giants are performing and identify the moments of deepest trance when awareness is lowest."
+      },
+      {
+        "skill": "Investigation",
+        "dc": 15,
+        "description": "Study the braziers and their conjuration magic — they fill the room with blinding smoke when combat begins. Knowing this in advance is critical."
+      },
+      {
+        "skill": "Deception",
+        "dc": 16,
+        "description": "If a Lightbearer stirs, convince them you are performing a sanctioned ritual or that the Zenith summoned you to the Core."
+      },
+      {
+        "skill": "History",
+        "dc": 13,
+        "description": "Recall lore about hagstones — how they're extracted, what weakens their settings, and how Night Hag heartstones reveal illusions."
+      }
+    ],
+    "successText": "The hagstone slides free from Aastrika's Crown with a faint hiss of escaping magical energy. The crown dims but does not alert anyone — its connection to the lava pools flickers but holds. The party has what they came for: a Night Hag's heartstone powerful enough to reveal the Daughter of Ash's true form to the Warrens. Drake holds it and feels... nothing cursed. No whispers. No compulsion. Just a warm stone that hums with truth. After Snicker Snacker, the simplicity of it is almost overwhelming. Now they need to escape — the Enclave doesn't know what's happened yet.",
+    "failureText": "The crown flares with blinding radiant light as the hagstone is wrenched free. A deep, resonant alarm — not a bell, but the mountain itself groaning — rings through the entire Enclave. Aastrika's eyes snap open, blazing with fury. \"THIEVES. IN MY SACRED PLACE.\" Her Molten Flesh erupts, the air around her distorting with heat. The braziers ignite, conjuration smoke beginning to fill the chamber. Every giant in the fortress is now alerted. The party has the hagstone, but they've just made an enemy of the Sunlight Legion. Begin the Escape challenge immediately — and pray the Daughter of Ash isn't watching through the smoke."
+  },
+  {
+    "id": "escape-the-enclave",
+    "name": "Escape the Enclave",
+    "description": "The alarm is raised. The mountain groans. Lava surges in the channels as the giants redirect it to block exits. Iron portcullises slam down across corridors — each requiring DC 24 Strength to turn the winch, or DC 13 Acrobatics to squeeze through. Fire giant patrols converge from every direction. The party must fight, bluff, and sprint through the labyrinth of volcanic tunnels before the mountain traps them forever.",
+    "imageUrl": "scenes/escape-the-enclave.jpg",
+    "successThreshold": 4,
+    "failureThreshold": 3,
+    "skills": [
+      {
+        "skill": "Athletics",
+        "dc": 15,
+        "description": "Sprint through collapsing corridors, leap over widening lava channels, and climb the 3-foot-high giant-sized stairs at full speed."
+      },
+      {
+        "skill": "Acrobatics",
+        "dc": 13,
+        "description": "Squeeze through iron portcullises designed for Huge creatures. The gates are slamming down all around you."
+      },
+      {
+        "skill": "Strength",
+        "dc": 24,
+        "description": "Turn a winch to raise a slammed portcullis. You can choose to gain a level of exhaustion to automatically succeed."
+      },
+      {
+        "skill": "Survival",
+        "dc": 14,
+        "description": "Remember or find the fastest route out as corridors fill with smoke and lava redirects around you."
+      },
+      {
+        "skill": "Perception",
+        "dc": 13,
+        "description": "Spot shortcuts, weak walls to break through, or incoming patrols to dodge."
+      },
+      {
+        "skill": "Constitution Save",
+        "dc": 15,
+        "description": "Endure the intense heat as lava channels overflow near the exit tunnels. Characters in medium/heavy armor have disadvantage."
+      }
+    ],
+    "successText": "The party bursts from the magma tunnels of Roaring Peak into the cool desert air, the roar of the volcano fading behind them. The sandstone mountain continues to rumble, but the pursuit doesn't follow beyond the entrance. The Sunlight Legion are warriors, not exterminators — and they have bigger concerns than small-folk who've already escaped. Drake holds the hagstone up to the light. It's warm. It hums. And somewhere in the Warrens, the Daughter of Ash feels a chill she can't explain. The hunt continues — but now the hunters have the weapon they need.",
+    "failureText": "The party barely escapes, but not without cost. Each member takes 4d6 fire damage from the collapsing tunnels and superheated air. One random piece of non-magical equipment is destroyed by the heat. Rook feels Bavlorna's mark burn on his skin — the hag is laughing somewhere. But they have the hagstone. Drake is singed, exhausted, and carrying a stone that could save everyone they left behind in the Warrens. The mission is not a total loss — but the Sunlight Legion will remember. And the Daughter of Ash will know they're coming."
+  }
+]
