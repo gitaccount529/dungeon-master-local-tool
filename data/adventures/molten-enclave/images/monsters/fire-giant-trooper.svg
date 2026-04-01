@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0800"/>
+      <stop offset="100%" stop-color="#0d0400"/>
+    </linearGradient>
+    <radialGradient id="heatAura" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#FF6F00" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1a0800" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8D6E63"/>
+      <stop offset="50%" stop-color="#6D4C41"/>
+      <stop offset="100%" stop-color="#4E342E"/>
+    </linearGradient>
+    <filter id="ember">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <rect width="400" height="500" fill="url(#heatAura)"/>
+
+  <!-- Three trooper silhouettes in formation (back two slightly faded) -->
+
+  <!-- Back left trooper -->
+  <g opacity="0.4" transform="translate(-50, -20) scale(0.85)">
+    <path d="M170 130 Q185 110 200 130 L210 160 Q215 180 218 200 L220 260 Q218 300 215 340 L212 400 Q210 430 200 440 Q190 430 188 400 L185 340 Q182 300 180 260 L182 200 Q185 180 190 160Z" fill="url(#skin)"/>
+    <ellipse cx="200" cy="120" rx="20" ry="22" fill="#5D4037"/>
+  </g>
+
+  <!-- Back right trooper -->
+  <g opacity="0.4" transform="translate(50, -20) scale(0.85)">
+    <path d="M170 130 Q185 110 200 130 L210 160 Q215 180 218 200 L220 260 Q218 300 215 340 L212 400 Q210 430 200 440 Q190 430 188 400 L185 340 Q182 300 180 260 L182 200 Q185 180 190 160Z" fill="url(#skin)"/>
+    <ellipse cx="200" cy="120" rx="20" ry="22" fill="#5D4037"/>
+  </g>
+
+  <!-- Front center trooper (main) -->
+  <g opacity="0.95">
+    <!-- Body -->
+    <path d="M200 100 Q220 95 235 110 L250 145 Q258 170 262 195 L265 260 Q262 310 258 360 L255 420 Q250 450 240 460 L220 470 Q210 472 200 472 Q190 472 180 470 L160 460 Q150 450 145 420 L142 360 Q138 310 135 260 L138 195 Q142 170 150 145 L165 110 Q180 95 200 100Z" fill="url(#skin)"/>
+
+    <!-- Head -->
+    <ellipse cx="200" cy="90" rx="25" ry="28" fill="#5D4037"/>
+    <ellipse cx="200" cy="88" rx="22" ry="25" fill="#6D4C41"/>
+
+    <!-- Eyes - orange fire -->
+    <ellipse cx="191" cy="85" rx="4" ry="2.5" fill="#FF8F00" filter="url(#ember)"/>
+    <ellipse cx="209" cy="85" rx="4" ry="2.5" fill="#FF8F00" filter="url(#ember)"/>
+
+    <!-- Soot stains on armor -->
+    <path d="M175 160 Q185 165 195 160 Q190 175 180 170Z" fill="#3E2723" opacity="0.5"/>
+    <path d="M210 180 Q220 185 230 178 Q225 195 215 188Z" fill="#3E2723" opacity="0.4"/>
+    <path d="M160 220 Q170 225 178 218 Q172 235 162 230Z" fill="#3E2723" opacity="0.5"/>
+
+    <!-- Cracked natural armor lines -->
+    <g stroke="#BF360C" stroke-width="1" fill="none" opacity="0.5">
+      <path d="M175 150 Q180 170 178 190"/>
+      <path d="M225 150 Q220 170 222 190"/>
+      <path d="M190 200 Q200 210 210 200"/>
+      <path d="M165 250 Q175 260 170 280"/>
+      <path d="M235 250 Q225 260 230 280"/>
+    </g>
+
+    <!-- Molten skin glow in cracks -->
+    <g filter="url(#ember)" opacity="0.4">
+      <path d="M175 155 Q180 165 178 180" stroke="#FF6F00" stroke-width="2" fill="none"/>
+      <path d="M225 155 Q220 165 222 180" stroke="#FF6F00" stroke-width="2" fill="none"/>
+    </g>
+
+    <!-- Arms - fists raised -->
+    <path d="M145 145 Q125 155 110 175 L100 200 Q95 210 100 215 L108 210 Q105 205 108 195 L120 175 Q130 165 140 160Z" fill="url(#skin)"/>
+    <path d="M255 145 Q275 155 290 175 L300 200 Q305 210 300 215 L292 210 Q295 205 292 195 L280 175 Q270 165 260 160Z" fill="url(#skin)"/>
+
+    <!-- Fists glowing -->
+    <circle cx="100" cy="212" r="10" fill="#5D4037"/>
+    <circle cx="100" cy="212" r="6" fill="#BF360C" opacity="0.6" filter="url(#ember)"/>
+    <circle cx="300" cy="212" r="10" fill="#5D4037"/>
+    <circle cx="300" cy="212" r="6" fill="#BF360C" opacity="0.6" filter="url(#ember)"/>
+  </g>
+
+  <!-- Ground - volcanic stone -->
+  <path d="M0 465 Q100 455 200 460 Q300 455 400 465 L400 500 L0 500Z" fill="#2E1A0E"/>
+  <path d="M50 470 Q60 467 70 470" stroke="#BF360C" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M300 472 Q315 468 330 472" stroke="#BF360C" stroke-width="1" fill="none" opacity="0.3"/>
+
+  <!-- Scattered embers -->
+  <circle cx="80" cy="350" r="1.5" fill="#FF8F00" opacity="0.5" filter="url(#ember)"/>
+  <circle cx="320" cy="300" r="1" fill="#FF8F00" opacity="0.4" filter="url(#ember)"/>
+  <circle cx="150" cy="140" r="1" fill="#FFD54F" opacity="0.3" filter="url(#ember)"/>
+  <circle cx="260" cy="380" r="1.5" fill="#FF6F00" opacity="0.3" filter="url(#ember)"/>
+</svg>

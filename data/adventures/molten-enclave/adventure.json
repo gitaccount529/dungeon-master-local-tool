@@ -1,0 +1,21 @@
+{
+  "id": "molten-enclave",
+  "name": "The Molten Enclave",
+  "description": "A fire giant stronghold beneath Roaring Peak. The Sunlight Legion guards the Crater of the Core where Zenith Aastrika meditates with the Crown of Flame.",
+  "headerTitle": {
+    "primary": "MOLTEN",
+    "secondary": "ENCLAVE"
+  },
+  "theme": {
+    "accent": "#ff6b35",
+    "accentSecondary": "#ff9466",
+    "background": "#1a1110",
+    "card": "#221815",
+    "cardAlt": "#1e1412",
+    "border": "#33221a",
+    "textMuted": "#aa7766"
+  },
+  "referencePdf": null,
+  "createdAt": "2026-03-18T04:31:43.299Z",
+  "updatedAt": "2026-03-18T04:31:43.299Z"
+}

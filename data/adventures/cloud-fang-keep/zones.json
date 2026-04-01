@@ -1,0 +1,455 @@
+{
+  "travelSection": {
+    "id": "travel",
+    "name": "The Desolation — Ambush Aftermath",
+    "description": "After escaping the Molten Enclave, the hunters fled into the Desolation. Ron and Rook were ambushed by basilisks and petrified up to their necks. Lady Emer revealed herself as the master of the ambush — hunting them on behalf of the Daughter of Ash.",
+    "readAloud": {
+      "punchy": "You wake in darkness. Cold stone presses against your skin — not around you, but through you. Your body ends at the neck. Below that: solid rock. A woman's voice, warm and amused, says: 'Welcome back. The Daughter sends her regards.'",
+      "atmospheric": "The last thing you remember is stone crawling up your legs. Then nothing. Now: biting cold, thin air, and the grinding weight of your own body turned to rock below the jaw. You can turn your heads. You can breathe. But you cannot move. Snow whips through darkness, and somewhere above you, a woman's silhouette watches from the back of a griffon. 'Don't struggle, darlings,' Lady Emer calls down. 'You'll chip.'",
+      "immersive": "The petrification took you mid-scream. One moment you were fighting basilisks in the broken waste of the Desolation — the next, stone was racing up your legs like frost on glass. It reached your chest. Your arms. Then nothing. When awareness returns, the world is different. Thin air burns your lungs. Snow stings your face. Your body is rock from the neck down — you can feel it, a terrible heaviness where muscle used to be. You're moving. Carried. The basilisks are gone. In their place, a woman perches on the back of a griffon, watching you with golden eyes framed by writhing serpents. 'The Daughter of Ash sends her regards,' she says, smiling. 'I am Lady Emer. And you are mine now.'"
+    },
+    "features": [
+      { "name": "Extreme Cold", "description": "Cloud Fang Keep is 23,421 feet above sea level. Extreme cold environment — see DMG rules. Without protection, Constitution saves required every hour.", "mechanical": "DC varies per DMG extreme cold rules" },
+      { "name": "High Altitude", "description": "Thin air. Creatures not acclimated to high altitude risk exhaustion. Long rests take twice as long.", "mechanical": "See DMG high altitude rules" },
+      { "name": "Partial Petrification", "description": "Ron and Rook are petrified from the neck down. They can speak and perceive but cannot move or act physically. Greater restoration, basilisk salve (see Basilisk stat block), or Lady Emer's Stone Sacrifice can free them.", "mechanical": "Petrified below neck — can talk but not act" }
+    ]
+  },
+  "zoneOverview": {
+    "id": "overview",
+    "name": "Zone Overview — Cloud Fang Keep",
+    "readAloud": {
+      "punchy": "A crumbling mountain fortress at 23,421 feet. Stone ceilings tower sixty feet overhead. Heavy velvet curtains replace doors. Enchanted chandeliers cast dim, colored light. The walls shimmer at the edges of your vision — residual illusion magic. Everything smells of snake musk and old perfume.",
+      "atmospheric": "Cloud Fang Keep clings to Frigid Summit like a barnacle on a whale's jaw. Inside, the architecture speaks of a paranoid illusionist's vanity — sixty-foot ceilings, enchanted chandeliers that cast light in colors that shouldn't exist, and heavy velvet curtains where doors should be. The walls shimmer if you stare too long. Residual illusion magic bleeds from every surface. The air carries snake musk, old perfume, and the mineral bite of stone dust. Some of that dust was people once.",
+      "immersive": "Cloud Fang Keep is a ruin playing dress-up. The exterior is crumbling stone and howling wind, ice crusting every surface, snow driving through gaps in walls that were never meant for this altitude. But inside, someone has tried to make it beautiful. Velvet curtains in deep crimson replace every door. Enchanted chandeliers hang from sixty-foot ceilings, casting dim light in colors that shift when you're not looking — amber, then violet, then something your eyes refuse to name. The walls shimmer at the edges of your vision. An illusionist built this place, and their paranoia soaked into the stone. The air smells of snake musk and expensive perfume, underlaid by the mineral bite of stone dust. Serpent scales glint in the chandelier light — shed everywhere, like hair."
+    },
+    "description": "Cloud Fang Keep is a crumbling mountain fortress once owned by an illusionist, now home to Lady Emer and her menagerie of guardians. The keep's walls still hold residual illusion magic — traps, false appearances, and enchanted objects are everywhere.",
+    "features": [
+      { "name": "60-Foot Ceilings", "description": "The keep's interior ceilings are 60 feet high throughout. This gives flying creatures significant tactical advantage." },
+      { "name": "Velvet Curtain Doors", "description": "All interior doors have been replaced with heavy velvet curtains. They block line of sight but not sound. Can be torn down or set on fire." },
+      { "name": "Enchanted Chandeliers", "description": "Dim light throughout from illusionist's chandeliers. They cast colored light that shifts subtly. Each has AC 13 and 25 HP." },
+      { "name": "Climbable Walls", "description": "The keep's crumbling interior walls can be climbed with a DC 14 Athletics check. On failure by 5 or more, a section of wall collapses (2d6 bludgeoning, DC 14 Dex save for half).", "dc": 14 },
+      { "name": "Residual Illusion Magic", "description": "The illusionist's magic still permeates the keep. Shadows move wrong, walls shimmer, phantom sounds echo. DC 15 Investigation to identify illusions." }
+    ],
+    "senses": {
+      "sight": "Dim colored light from enchanted chandeliers. Velvet curtains in deep crimson. Sixty-foot ceilings vanishing into shadow. Walls that shimmer at the edges of vision.",
+      "sound": "Wind howling through gaps in the walls. Distant hissing — serpents or steam. The curtains rustle even without wind. Phantom footsteps from empty rooms.",
+      "smell": "Snake musk and expensive perfume — Lady Emer's scent pervades everything. Stone dust. Cold mineral air. A faint chemical sweetness from the flemgot mold.",
+      "touch": "Bitter cold from every exterior wall. Smooth velvet curtains. Crumbling stone that flakes under pressure. Ice crystals on any surface near a gap in the walls.",
+      "instinct": "This place is watching you. The walls remember. Something elegant and deadly lives here — and it knows you're inside."
+    }
+  },
+  "zones": [
+    {
+      "id": "e1-entrance-hall",
+      "name": "E1. Entrance Hall",
+      "readAloud": {
+        "punchy": "A welcome hall reeking of animal musk. Faded tapestries on the walls. A pile of bones and refuse in the northeast corner. The chandelier above burns brighter than the others — bright light fills the room.",
+        "atmospheric": "The stone double doors grind open to reveal a welcome hall. A chandelier overhead burns brighter than any other in the keep, casting harsh light across faded, moldy tapestries. The air reeks of animal musk and something worse — a pile of bones, feathers, and refuse fills the northeast corner. The tapestries hide crumbling walls behind them, and the refuse pile shifts slightly when you look away.",
+        "immersive": "The castle's stone double doors swing inward with a grinding protest. Beyond them, a welcome hall stretches into dim warmth — but here the chandelier burns bright, almost aggressively so, flooding every corner with light. The walls are lined with faded tapestries, their colors long gone to mold and age. A chemical sweetness underlies the smell of animal musk — something in the tapestries, maybe. In the northeast corner, a refuse pile of bones, feathers, and shredded leather armor sits in a reeking mound. Something wet glistens inside it. The pile is too large. Too deliberate. And if you watch closely, something inside it moves."
+      },
+      "description": "The keep's entrance. Owlbear refuse pile hides blood-borne oozes. Tapestries covered in flemgot mind-altering mold. Bright chandelier light.",
+      "features": [
+        { "name": "Flemgot Mold Tapestries", "description": "DC 17 Intelligence (Nature) to identify the mind-altering mold. Each Humanoid spending more than 1 minute here: DC 16 Constitution saving throw or poisoned for 1 hour (vulnerability to poison damage, disadvantage on saves vs. frightened). Success = immune for 24 hours.", "dc": 16 },
+        { "name": "Owlbear Nest", "description": "Bones, feathers, destroyed leather armor. Three blood-borne oozes hide inside. DC 16 Wisdom (Perception) to notice them before touching the nest. They ambush anyone who investigates but don't warn Lady Emer.", "dc": 16 },
+        { "name": "Bright Chandelier", "description": "This chandelier glows brighter than others, filling the chamber with bright light. Part of the illusionist's original security — ensures nothing hides in shadow here." }
+      ],
+      "encounters": [
+        {
+          "name": "Blood-Borne Ooze Ambush",
+          "monsters": ["Blood-Borne Ooze x3"],
+          "notes": "The oozes ambush anyone who investigates the nest. They owe no loyalty to Lady Emer and don't warn her. They try to meld into hosts via their Pseudopod attack.",
+          "dialogue": []
+        }
+      ],
+      "npcs": [],
+      "treasure": [
+        { "name": "Silver Necklace", "description": "Hidden in the owlbear nest. DC 12 Intelligence (Investigation) to find.", "value": "15 gp" },
+        { "name": "Crossbow Bolts", "description": "10 crossbow bolts buried in the nest debris.", "value": "1 gp" }
+      ],
+      "dmNotes": [
+        "The flemgot mold is the real threat here — it makes the party vulnerable to poison and frightened effects BEFORE they face the basilisks and Lady Emer's venom.",
+        "The oozes are a surprise resource drain, not a major encounter. Don't let them overshadow the mold.",
+        "The bright chandelier is a subtle hint that illusionist magic pervades the keep."
+      ],
+      "campaignNotes": [
+        "If the hunters are brought here as captives, they pass through this room. Lady Emer's guardians know to avoid the mold."
+      ],
+      "mapImageUrl": null,
+      "senses": {
+        "sight": "Bright chandelier light exposes every corner. Faded tapestries hang from the walls, their colors lost to mold and age. The refuse pile in the corner is a dark mass of bone and feather.",
+        "sound": "The wind whistling through gaps in the stone. The occasional creak of the tapestries. Something wet shifting inside the refuse pile.",
+        "smell": "Animal musk and decay — the owlbear nest. Underneath it, a chemical sweetness from the flemgot mold on the tapestries.",
+        "touch": "The stone floor is cold and slightly damp. The air is warmer here than outside but still carries a chill.",
+        "instinct": "Something is wrong with the tapestries. And the refuse pile has too many eyes."
+      },
+      "ambiance": {
+        "music": [
+          { "name": "Fortress Infiltration", "description": "Tense exploration of a dangerous fortification", "searchTerm": "dark fantasy fortress infiltration ambient music", "tags": ["exploration", "tension"] }
+        ],
+        "sounds": [
+          { "name": "Wind and Stone", "description": "Cold wind through cracked stone walls", "searchTerm": "wind howling through castle ruins ambience", "tags": ["exploration"] },
+          { "name": "Owlbear Growls", "description": "Distant animal sounds — low growls, scratching", "searchTerm": "bear growl distant animal sounds dark", "tags": ["tension"] }
+        ]
+      }
+    },
+    {
+      "id": "e2-griffon-roost",
+      "name": "E2. Griffon Roost",
+      "readAloud": {
+        "punchy": "Spiral stairs climb 120 feet to an open-air nest. Two griffons tear apart a stag carcass. A wagon-wheel-sized egg sits on the west edge. Walls and ceiling are gone — open sky and biting wind.",
+        "atmospheric": "The spiral stairs wind up 120 feet inside the ruined tower. As you climb, the air grows colder and the sound of tearing meat grows louder. The stairs emerge into a gigantic nest of wet branches, bones, and feathers — the walls and ceiling are gone, exposing everything to sky and wind. Two enormous griffons sit in the nest, ripping apart a stag. On the western edge, a gray-speckled egg as wide as a wagon wheel rests in a bed of feathers.",
+        "immersive": "The spiral staircase is tight, cold, and dark — 120 feet of climbing inside a tower that groans with every gust of wind. You hear them before you see them: the wet sound of meat being torn, the snap of bone, and the occasional satisfied squawk. The stairs open into chaos. The tower's upper floor has no walls, no ceiling — just open sky and a nest the size of a small building. Wet branches, bones, and matted feathers form a bowl of difficult terrain. Two griffons crouch at its center, shredding a stag between them. On the western rim, half-buried in feathers, sits an egg. Three feet wide. Four feet tall. Gray-speckled and faintly warm."
+      },
+      "description": "The griffon roost atop the ruined tower. 120 feet up, open to the sky. Four griffons total, a griffon egg, and a view down into the stone garden.",
+      "features": [
+        { "name": "Exposed Nest", "description": "No walls or ceiling. Open to sky and extreme cold. The nest itself is difficult terrain for non-griffon creatures." },
+        { "name": "Height", "description": "120 feet above ground level. Falling from the nest deals 12d6 bludgeoning damage." },
+        { "name": "Wyvern Below", "description": "A creature who looks over the northeast edge of the nest can see the wyvern lounging on the pillar in the stone garden (area E5)." },
+        { "name": "Griffon Reinforcements", "description": "Two griffons are in the nest. Two more in the sky return at the start of the second round of combat. Only one arrives if a griffon was already defeated during the approach.", "mechanical": "2 griffons present, +2 reinforcements round 2" }
+      ],
+      "encounters": [
+        {
+          "name": "Griffon Nest Defense",
+          "monsters": ["Griffon x4"],
+          "notes": "Griffons try to pick up and drop foes off the tower or use Buffet to push them off. While foes are in the nest, griffons ignore foes outside it. If griffons outnumber the party, they engage in melee to kill quickly. Fight to the death to defend the nest. Don't pursue inside the castle.",
+          "dialogue": []
+        }
+      ],
+      "npcs": [],
+      "treasure": [
+        { "name": "Griffon Egg", "description": "3-foot-diameter, 4-foot-high, 200 pounds. Hatches in 1d6 weeks into a Medium baby griffon. Becomes a griffon companion after 1 year.", "value": "priceless" },
+        { "name": "Adventurer's Gear", "description": "Bag of ball bearings, bag of caltrops, and a flask of alchemist's fire wrapped in leather. Found in bones after 5 minutes of searching.", "value": "50 gp" }
+      ],
+      "dmNotes": [
+        "The griffons' primary tactic is pushing/dropping PCs off the 120-foot tower. Emphasize the height.",
+        "The griffon egg is a major long-term reward — a griffon companion is incredibly valuable.",
+        "Spotting the wyvern from here can help the party plan for the stone garden."
+      ],
+      "campaignNotes": [],
+      "mapImageUrl": null,
+      "senses": {
+        "sight": "Open sky above. The nest is a chaotic bowl of branches and bone. The view extends for miles — frozen peaks, grey clouds, and far below, the stone garden courtyard with its pillar and tiny statues.",
+        "sound": "Tearing meat. The screech of griffons. Wind howling through the broken tower.",
+        "smell": "Raw meat, feathers, and the sharp clean cold of high altitude.",
+        "touch": "Biting wind. The nest shifts underfoot — branches creak, bones snap. Everything is wet from snow.",
+        "instinct": "The height is dizzying. One wrong step and the fall will kill you faster than the griffons."
+      },
+      "ambiance": {
+        "music": [
+          { "name": "Mountaintop Aerie", "description": "High altitude tension with soaring danger", "searchTerm": "epic mountain fortress griffon battle fantasy music", "tags": ["combat", "tension"] }
+        ],
+        "sounds": [
+          { "name": "Mountain Wind", "description": "Powerful gusts of alpine wind", "searchTerm": "strong mountain wind howling sound effect", "tags": ["exploration", "combat"] },
+          { "name": "Eagle Shrieks", "description": "Large bird of prey vocalizations", "searchTerm": "eagle hawk screech sound effect aggressive", "tags": ["combat"] }
+        ]
+      }
+    },
+    {
+      "id": "e3-storage-room",
+      "name": "E3. Storage Room",
+      "readAloud": {
+        "punchy": "Porcelain dust and garlic smell. Crates stacked along the east wall. Broken statuary across the floor — rubble everywhere. Two shapes sleep among the debris on the west side.",
+        "atmospheric": "The air is thick with porcelain dust and faintly smells of garlic. Crates stand in neat stacks along the east wall — organized, maintained. But the rest of the room is chaos: broken statuary lies in piles across the floor, creating a maze of rubble. Among the debris on the west wall, two lumpy shapes breathe slowly. Something glints on their necks — gold collars. And near the south doorway, hidden under rubble, a faint magical glow pulses on the ground.",
+        "immersive": "You push through the velvet curtain into a room that smells of dust and garlic. Fine porcelain powder hangs in the air like mist — the remnants of shattered statues that litter the floor in heaps. Along the east wall, crates stand in neat, methodical stacks. Someone maintains this room. The rest is rubble. Broken stone limbs, cracked torsos, the faces of people frozen in terror — the wreckage of Lady Emer's earlier work. The rubble shifts. On the west side, two eight-legged reptilian shapes sleep among the debris, their scales matching the grey stone. Each wears a dragon-scale collar with a gold name tag. Blinkers. Blunders. Near the south doorway, buried under rubble, you catch the faintest shimmer of a glyph etched into the floor."
+      },
+      "description": "Storage room with Lady Emer's pet basilisks (Blinkers and Blunders) sleeping in rubble. Fear glyph trap on the south entrance. Rubble is difficult terrain.",
+      "features": [
+        { "name": "Rubble-Strewn Floor", "description": "Difficult terrain for creatures walking on four or fewer legs. The basilisks (eight legs) move normally." },
+        { "name": "Sleeping Basilisks", "description": "Passive Perception 17 or higher notices them sleeping (gold collars glint). DC 12 group Dexterity (Stealth) to sneak through without waking them. DC 17 Dexterity (Sleight of Hand) to steal a collar without waking the basilisk.", "dc": 12 },
+        { "name": "Fear Glyph Trap", "description": "South doorway — rubble-covered glyph of illusion magic. DC 17 Intelligence (Investigation) to notice. Detect magic reveals its aura. When triggered: each creature within 10 feet sees what they fear most. DC 17 Wisdom saving throw or frightened for 1 minute (or until damaged). While frightened: must scream loudly (wakes basilisks!) and run clockwise through the lair at full speed using Dash. Treat as 4th-level spell for dispel magic. DC 17 Dexterity check with thieves' tools to disable.", "dc": 17 },
+        { "name": "Lady Emer's Route", "description": "Lady Emer and her guardians only use the north entrance to avoid the glyph." }
+      ],
+      "encounters": [
+        {
+          "name": "Blinkers and Blunders",
+          "monsters": ["Basilisk x2"],
+          "notes": "Lady Emer's prized pets. They wear dragon-scale collars worth 150 gp each. If the fear glyph triggers, the screaming wakes them immediately. They fight to protect the room but flee to warn Lady Emer if clearly losing.",
+          "dialogue": []
+        }
+      ],
+      "npcs": [],
+      "treasure": [
+        { "name": "Crate Contents", "description": "A pouch containing 200 gp and enough food and water to sustain a Medium creature for 90 days.", "value": "200 gp" },
+        { "name": "Basilisk Collars", "description": "Dragon-scale collars with gold name tags (Blinkers and Blunders). 150 gp each.", "value": "300 gp total" }
+      ],
+      "dmNotes": [
+        "This room is a stealth puzzle. Ideal outcome: party sneaks past basilisks and avoids the glyph.",
+        "Worst case: glyph triggers, PC screams, basilisks wake, and the screaming PC runs through the keep alerting everything.",
+        "The basilisks' Alchemical Ingredients trait is CRITICAL — their gullets produce salve that cures petrification. This is how Ron and Rook can be freed.",
+        "If the party kills the basilisks, make sure they know about the salve (DC 12 Medicine check)."
+      ],
+      "campaignNotes": [
+        "The basilisk salve is the most likely cure for Ron and Rook's petrification. Emphasize this if the party discovers it."
+      ],
+      "mapImageUrl": null,
+      "senses": {
+        "sight": "Porcelain dust hangs in the air like mist. Rubble everywhere — broken statues with faces frozen in terror. Two reptilian shapes sleep in the debris, gold collars catching the light.",
+        "sound": "The slow breathing of the basilisks. The faint hum of magic from the south doorway.",
+        "smell": "Porcelain dust and garlic — the basilisks' breath. Underneath, the chemical smell of venom.",
+        "touch": "Rubble shifts underfoot. The dust tickles the throat and coats everything in white powder.",
+        "instinct": "Do not wake the basilisks. Do not step on the glyph. Move slowly. Move quietly."
+      },
+      "ambiance": {
+        "music": [
+          { "name": "Stealth Puzzle", "description": "Quiet tension — creeping through a dangerous room", "searchTerm": "stealth music sneaking dark fantasy dungeon ambient", "tags": ["exploration", "tension"] }
+        ],
+        "sounds": [
+          { "name": "Sleeping Beast", "description": "Heavy reptilian breathing, occasional shifting", "searchTerm": "sleeping dragon breathing sound effect quiet", "tags": ["tension"] }
+        ]
+      }
+    },
+    {
+      "id": "e4-grand-salon",
+      "name": "E4. Grand Salon",
+      "readAloud": {
+        "punchy": "A 30-foot ceiling with stained-glass stars and planets. Three shimmering chandeliers. Polished marble dance floor. Couches northwest, instruments northeast. Two glass display cases gleaming against the south wall.",
+        "atmospheric": "The ceiling drops to 30 feet but what it loses in height it gains in grandeur. Stained glass depicts suns, moons, and planets in deep blues and golds, reflecting through three chandeliers that scatter light across a polished marble dance floor. The northwest corner holds plush couches and decorative ashtrays. The northeast: a harpsichord and wooden chairs with instruments on each. Against the south wall, two glass-and-marble display cases gleam with treasure inside. This room is Lady Emer's pride — and everything in it is a trap.",
+        "immersive": "The velvet curtain parts to reveal Lady Emer's crown jewel. The ceiling is only 30 feet here, but every inch of it is stained glass — suns, moons, planets rendered in deep blues, golds, and crimsons that shift and shimmer as three chandeliers scatter their light below. The reflections play across a polished marble floor with a wide space for dancing. To the northwest, overstuffed couches cluster around side tables set with decorative ashtrays. To the northeast, four wooden chairs sit beside a harpsichord — each chair holds a musical instrument, arranged as if a quartet just stepped away. Against the south wall, two glass-and-marble display cases hold glittering treasures behind locked glass. The whole room hums with a faint magical resonance. It's beautiful. It's designed to be."
+      },
+      "description": "Lady Emer's grand salon — dance floor, harpsichord, and trapped display cases containing her hoard. The stained glass ceiling and chandeliers create a mesmerizing trap when display cases are tampered with.",
+      "features": [
+        { "name": "Display Case Trap", "description": "Cases are locked (Lady Emer has the key). Glass: AC 13, 9 HP, immune to poison/psychic. Pick lock: DC 18 Dexterity with thieves' tools. If the check fails or glass is broken, the trap triggers. Detect magic reveals auras of illusion on cases, chandeliers, and ceiling.", "dc": 18 },
+        { "name": "Mesmerizing Light Show", "description": "When triggered: chandeliers create a brilliant light display, stained-glass images dance for 1 minute. Any creature who can see the floor or ceiling at the start of their turn: DC 17 Wisdom saving throw or 7 (2d6) psychic damage and incapacitated until start of next turn. Treat as 4th-level spell for dispel magic.", "dc": 17 },
+        { "name": "Falling Chandeliers", "description": "Destroying all three chandeliers ends the light show. Each: AC 13, 25 HP, 10-foot diameter, immune to poison/psychic. When destroyed, falls. DC 13 Dexterity saving throw or 35 (10d6) bludgeoning damage (half on save).", "mechanical": "AC 13, 25 HP each" },
+        { "name": "Harpsichord", "description": "Lady Emer plays this for guests she decides to entertain rather than kill. If she brings the party here socially, she plays and expects them to dance." }
+      ],
+      "encounters": [
+        {
+          "name": "Display Case Trap",
+          "monsters": [],
+          "notes": "This is a trap encounter, not a creature encounter. The light show is the threat. If the party fails to stop it, Lady Emer may arrive (3 rounds from library) while they're incapacitated.",
+          "dialogue": []
+        }
+      ],
+      "npcs": [],
+      "treasure": [
+        { "name": "Lady Emer's Hoard (Display Cases)", "description": "Bag of beans, pair of winged boots, ring of mind shielding, wand of restoration (6 charges, rare, attunement), dust of disappearance, potion of gaseous form, potion of heroism, 2 potions of poison, 5 bottles of serpent venom.", "value": "priceless" },
+        { "name": "Musical Instruments", "description": "Lyre (30 gp), 2 viols (30 gp each), ornate crystal flute (350 gp).", "value": "440 gp" },
+        { "name": "Heavy Ebony Crossbow", "description": "Crossbow with gold filigree. Worth 1,500 gp.", "value": "1,500 gp" }
+      ],
+      "dmNotes": [
+        "The display case trap punishes brute-force approaches. Lockpicking is the safe path (DC 18).",
+        "Falling chandeliers deal MASSIVE damage (35 avg). Use this to discourage random destruction.",
+        "If Lady Emer is alive and entertains the party here, the trap doesn't trigger — she has the key.",
+        "The wand of restoration is particularly valuable — it can cast lesser/greater restoration, useful for curing petrification on Ron and Rook."
+      ],
+      "campaignNotes": [
+        "The wand of restoration in the display case can cure Ron and Rook's petrification (greater restoration costs 4 charges).",
+        "If the party steals the crystal flute, this connects to the Art Collector story hook from the book (Alira Zoransk, gnome collector)."
+      ],
+      "mapImageUrl": null,
+      "senses": {
+        "sight": "Kaleidoscopic light from stained glass. Polished marble reflects everything. The display cases gleam with treasure behind glass.",
+        "sound": "The soft chime of the chandeliers shifting. Silence otherwise — this room feels like it's waiting.",
+        "smell": "Old perfume and beeswax. The faint chemical tang of magic.",
+        "touch": "The marble floor is cold and mirror-smooth. The couches are luxuriously soft — real comfort after the harshness of the keep.",
+        "instinct": "This room is too beautiful. Too inviting. Everything in here wants you to stay."
+      },
+      "ambiance": {
+        "music": [
+          { "name": "Elegant Danger", "description": "Beautiful classical music with an undercurrent of menace", "searchTerm": "dark elegant harpsichord music medusa lair fantasy", "tags": ["exploration", "tension"] },
+          { "name": "Light Show Trap", "description": "Mesmerizing, hypnotic music for when the trap triggers", "searchTerm": "hypnotic music box trap enchantment dark fantasy", "tags": ["combat", "tension"] }
+        ],
+        "sounds": [
+          { "name": "Crystal Chimes", "description": "Delicate glass and crystal sounds", "searchTerm": "crystal chandelier chimes ambient sound", "tags": ["exploration"] }
+        ]
+      }
+    },
+    {
+      "id": "e5-stone-garden",
+      "name": "E5. Stone Garden",
+      "readAloud": {
+        "punchy": "An outdoor courtyard at the keep's center. Six stone statues with terrified faces stand among fragrant flowers. A 40-foot marble pedestal covered in vines rises at the center. Something large lounges on top.",
+        "atmospheric": "The velvet curtains part to reveal open sky and the scent of living things. Six stone statues stand in a garden courtyard — not carved. Petrified. Their faces are frozen in terror, draped with fragrant flowers that fail to conceal the horror. At the garden's center, a massive marble pedestal encased in flowering vines rises 40 feet into the air. Atop it, a wyvern lounges with the casual arrogance of a predator who knows nothing here can challenge her.",
+        "immersive": "After the enclosed darkness of the keep, the stone garden is a shock of open sky and color. An outdoor courtyard at the heart of the fortress, ringed by crumbling walls on all sides. Six statues stand among beds of fragrant flowers and herbs — but these statues weren't carved. The terror on their stone faces is too real, the postures too desperate. Each one was a person once. Some still wear expressions of defiance. Others are mid-scream. The flowers draped around their shoulders are a mockery of comfort. At the garden's center, a towering marble pedestal climbs 40 feet into the air, wrapped in thick flowering vines. Atop it, barely visible from ground level, something large shifts its weight. A tail drops over the edge. A wyvern watches you with bored, predatory eyes."
+      },
+      "description": "The outdoor courtyard — Lady Emer's trophy garden of petrified victims. A wyvern guards from a 40-foot pedestal. Six retainers stand frozen as statues. Poisonous plants throughout. This is where Lady Emer fights if warned.",
+      "features": [
+        { "name": "40-Foot Marble Pedestal", "description": "Central pillar covered in flowering vines. Climbable without an ability check (sturdy vines). The wyvern lounges atop it. If Lady Emer has been warned, she hides here too." },
+        { "name": "Petrified Retainers", "description": "Six petrified adventurers who can serve as retainers if freed: Alia Sylf (human mercenary), Gorith Tork (orc blacksmith), Kaxor (lizardfolk hunter), Septima Vinculum (kobold decanus), Varnes Dwell (hobgoblin tactician), Worjo (minotaur devastator)." },
+        { "name": "Poisonous Plants", "description": "DC 15 Intelligence (Nature) to identify — many are poisonous. A character proficient with alchemist's supplies, herbalism kits, or poisoner's kits can spend 10 minutes gathering blossoms for one dose each of: assassin's blood, malice, and oil of taggit. 1 hour during a short rest to create one dose.", "dc": 15 },
+        { "name": "Stone Doors", "description": "Every area adjoining the stone garden has stone doors (not curtains). These are heavy and can be barricaded." }
+      ],
+      "encounters": [
+        {
+          "name": "Wyvern Attack",
+          "monsters": ["Wyvern x1"],
+          "notes": "The wyvern waits for intruders to near the center then attacks. She enjoys Bite-grappling creatures, flying them to the pedestal, and flinging them off with Tail Sweep — then Bite-grabbing them again after they hit the ground. Hot-tempered and bored.",
+          "dialogue": []
+        },
+        {
+          "name": "Lady Emer (If Warned)",
+          "monsters": ["Lady Emer x1"],
+          "notes": "If warned by fleeing guardians, Lady Emer fights from atop the pedestal using height advantage. Her Stone Gaze becomes even more dangerous here — she can use Stone Puppets (Villain Action 3) to weaponize the garden statues. Lair Actions are active in this area.",
+          "dialogue": ["\"You've come all this way just to become another statue in my garden? How flattering.\"", "\"The Daughter of Ash will be pleased. She wanted you alive, but stone is close enough.\""]
+        }
+      ],
+      "npcs": [
+        { "name": "Petrified Retainers", "dialogue": ["(Frozen in stone — cannot speak until freed)", "(If freed, see individual NPC entries for dialogue)"] }
+      ],
+      "treasure": [
+        { "name": "Lady Emer's Key", "description": "Lady Emer carries a key to the display cases in the grand salon (area E4).", "value": "priceless" },
+        { "name": "Petrified Tear Plant", "description": "A rare plant that grows only in a medusa's stone garden. Can save a blighted forest (Blight Cure story hook).", "value": "priceless" }
+      ],
+      "dmNotes": [
+        "This is the BOSS ARENA if Lady Emer was warned. Her lair actions (Shadowstep, Stony Wail, Venom Shower) are active here.",
+        "The petrified retainers are both a roleplaying goldmine and a tactical resource. Each is a retainer with scaling abilities.",
+        "Stone Puppets (Villain Action 3) lets Emer move the petrified retainers and have them attack — devastating if the party has freed some already.",
+        "The wyvern and Lady Emer fight TOGETHER if both are present. The wyvern grapples and drops while Emer petrifies.",
+        "The basilisk salve (from E3) or the wand of restoration (from E4) can free the retainers here."
+      ],
+      "campaignNotes": [
+        "Ron and Rook will likely be brought here as new additions to the garden. They may be petrified alongside the other statues.",
+        "Freeing the retainers gives the party allies for the boss fight — and demonstrates to Ron and Rook that de-petrification is possible."
+      ],
+      "mapImageUrl": null,
+      "linkedChallenges": [],
+      "senses": {
+        "sight": "Open sky above. Six statues with terrified faces draped in flowers. A 40-foot marble pedestal covered in vines. The wyvern's tail hangs over the edge like a pendulum.",
+        "sound": "Wind through the garden. The buzz of insects on flowers. The scrape of wyvern claws on marble.",
+        "smell": "Fragrant flowers — jasmine, lavender — masking the faint chemical bite of poisonous plants underneath.",
+        "touch": "Warm stone underfoot where the sun hits. Cool shadow near the pedestal. The statues are cold as grave-marble.",
+        "instinct": "The statues' faces tell you everything you need to know about what happens here. Don't look up."
+      },
+      "ambiance": {
+        "music": [
+          { "name": "Stone Garden", "description": "Beautiful but deeply wrong — a garden of horrors disguised as art", "searchTerm": "dark garden medusa lair atmospheric music eerie beauty", "tags": ["exploration", "tension"] },
+          { "name": "Lady Emer Boss Fight", "description": "Intense combat with an elegant, deadly foe", "searchTerm": "medusa boss battle dark fantasy orchestral music", "tags": ["boss", "combat"] }
+        ],
+        "sounds": [
+          { "name": "Garden Ambience", "description": "Wind, insects, occasional bird calls — deceptively peaceful", "searchTerm": "garden ambience wind insects birds peaceful eerie", "tags": ["exploration"] },
+          { "name": "Stone Cracking", "description": "The sound of stone shifting and cracking — petrification in progress", "searchTerm": "stone cracking breaking sound effect", "tags": ["combat", "tension"] }
+        ]
+      }
+    },
+    {
+      "id": "e6-library",
+      "name": "E6. Library",
+      "readAloud": {
+        "punchy": "Warm light on walls of books. A desk piled with papers, quills, and ink. A bed in the southeast corner.\n\nIf Lady Emer is here: a medusa coiled over the desk, crossing something out with a quill. A snake in her hair hands her a fresh one.",
+        "atmospheric": "Warm light illuminates walls lined with books — shelf after shelf, floor to ceiling. On the west side, a desk drowns under papers, inkpots, a penknife, and dozens of quills. A bed stands in the southeast corner, neatly made.\n\nIf Lady Emer is here, she is coiled over the desk in a pose of theatrical frustration, crossing out lines and snapping quill nibs. Without missing a beat, one of her hair-serpents places a freshly inked quill in her hand. She doesn't look up immediately. She finishes the line first.",
+        "immersive": "The velvet curtain parts to reveal something unexpected: warmth. Real warmth, not just the absence of cold. The library is Lady Emer's true home — you can feel it. Bookshelves line every wall from floor to the 60-foot ceiling, stuffed with tomes on religion and magical lore. The west side holds a desk that has become its own ecosystem: papers stacked in precarious towers, inkpots in four colors (black, gold, green, purple), a penknife, and no fewer than two dozen quills. A bed stands in the southeast corner, made with military precision.\n\nIf Lady Emer is here, she's coiled over the desk, serpent-hair writhing with independent frustration as she crosses out a line of poetry, snaps the quill's nib, and catches a fresh one from one of her snakes without looking. She knows you're there. She's making you wait."
+      },
+      "description": "Lady Emer's personal quarters — library, study, and bedroom. This is where she is found if not warned. Social encounter is possible here. Rich treasure in the desk.",
+      "features": [
+        { "name": "Social Encounter Possible", "description": "How Lady Emer reacts depends on how the party enters. Weapons drawn / covered in guardian blood = combat. Friendly approach = she will chat. See NPC entry for social mechanics.", "dc": 19 },
+        { "name": "Books", "description": "Mainly tomes about religious and magical lore. Emer is searching for secrets to help achieve godhood — a personal goal beyond her service to the Daughter of Ash." },
+        { "name": "Desk", "description": "Hundreds of poorly written poems, quills, inks, and tools. Contains disguise kit, forgery kit, mason's tools, poisoner's kit, thieves' tools, and 3,130 gp." }
+      ],
+      "encounters": [
+        {
+          "name": "Lady Emer",
+          "monsters": ["Lady Emer x1"],
+          "notes": "If combat starts, Emer moves to the stone garden (area E5) where she can maneuver freely and fuel Stone Sacrifice with garden statues. Lair Actions are NOT active in the library — only in the stone garden. If the party is friendly, see social encounter rules.",
+          "dialogue": [
+            "\"Ah. Visitors. How delightful. Do come in — mind the poetry, it's everywhere.\"",
+            "\"The Daughter of Ash told me about you. The hunters who escaped the Zenith's judgment. I must say, I'm curious.\"",
+            "\"You're wondering if I'll let you leave. The answer depends entirely on how interesting you are in the next five minutes.\"",
+            "\"Flatter me. I dare you. It won't save you, but it will make the next few minutes more pleasant for both of us.\""
+          ]
+        }
+      ],
+      "npcs": [
+        {
+          "name": "Lady Emer (Social)",
+          "dialogue": [
+            "\"I was human once. A scout for the Order of the Ouroboros. Then the gods cursed me for my ambition. But the Daughter of Ash saw potential where the gods saw punishment.\"",
+            "\"She gives me beauty. Real beauty — not the mockery of serpent-hair and stone-eyes. In return, I hunt what she asks me to hunt. You, for instance.\"",
+            "\"If you praise my poetry, I might let you die quickly. If you praise my skill, I might let you die painlessly. If you praise my beauty? Well. We might have a conversation.\""
+          ]
+        }
+      ],
+      "treasure": [
+        { "name": "Gold Pouch", "description": "3,130 gp in the desk drawers.", "value": "3,130 gp" },
+        { "name": "Quill and Ink Set", "description": "12 owlbear-feather quills, 12 griffon-feather quills, inkpots in black, gold, green, and purple.", "value": "50 gp" },
+        { "name": "Tool Kits", "description": "Disguise kit, forgery kit, mason's tools, poisoner's kit, thieves' tools.", "value": "250 gp" },
+        { "name": "Lady Emer's Key", "description": "Key to the display cases in the grand salon (area E4).", "value": "priceless" }
+      ],
+      "dmNotes": [
+        "This is the PRIMARY social encounter opportunity. Lady Emer WANTS to talk — she's lonely and vain.",
+        "DC 19 Charisma (Deception or Persuasion) to befriend her: praise her assassin skill, love of literature, or claim to know secrets about godhood.",
+        "If befriended, she takes the party to the grand salon (E4) to play harpsichord and dance. If they play along, she thanks them and asks them to leave. At your discretion, she gives an item from her hoard as a gift.",
+        "If bored or insulted, she attacks. If her orders from the Daughter of Ash override her desire for company, she attacks.",
+        "IMPORTANT: Lady Emer's key opens the display cases safely. Getting it through social encounter avoids the trap entirely.",
+        "If combat starts here, Emer retreats to the stone garden where her lair actions work. This is smart — she knows her terrain."
+      ],
+      "campaignNotes": [
+        "Lady Emer knows the party escaped the Molten Enclave. She knows about the Zenith, the Fire Gem explosion, and Draven's true name.",
+        "She may reveal information about the Daughter of Ash if sufficiently charmed — but this is extremely difficult (DC 19+).",
+        "If the party can somehow turn Lady Emer against the Daughter of Ash (appealing to her godhood ambitions), this could be a campaign-altering moment."
+      ],
+      "mapImageUrl": null,
+      "linkedChallenges": ["befriending-lady-emer"],
+      "senses": {
+        "sight": "Warm light on thousands of books. A messy desk covered in ink-stained poetry. A neatly made bed. If Emer is here: serpent-hair moving independently, golden eyes, elegant black leather.",
+        "sound": "The scratch of quill on parchment. The soft hissing of serpent-hair. Pages turning.",
+        "smell": "Old books, expensive ink, and a faint perfume that doesn't quite mask the chemical scent of venom.",
+        "touch": "Warm air — the first truly comfortable room in the keep. The books are real and well-maintained.",
+        "instinct": "She's watching you even when she's not looking at you. Every snake in her hair is a separate pair of eyes."
+      },
+      "ambiance": {
+        "music": [
+          { "name": "Medusa's Library", "description": "Tense social encounter — elegant danger", "searchTerm": "dark elegant library music social encounter fantasy tense", "tags": ["social", "tension"] },
+          { "name": "Emer's Harpsichord", "description": "Actual harpsichord music for if she plays for the party", "searchTerm": "harpsichord dark elegant classical music baroque", "tags": ["social"] }
+        ],
+        "sounds": [
+          { "name": "Quill and Paper", "description": "Writing sounds — scratch of quill, page turning", "searchTerm": "quill writing paper turning old library sounds", "tags": ["social", "exploration"] },
+          { "name": "Snake Hissing", "description": "Soft, continuous serpent sounds", "searchTerm": "snake hissing subtle quiet ambient", "tags": ["tension"] }
+        ]
+      }
+    },
+    {
+      "id": "e7-parlor",
+      "name": "E7. Parlor",
+      "readAloud": {
+        "punchy": "Overstuffed armchairs and side tables with roses. A buffet table with wine bottles and crystal goblets against the south wall. A pile of snow against the east wall, beneath a hole in the ceiling.",
+        "atmospheric": "A room designed for comfort: overstuffed armchairs sit among side tables set with vases holding fresh roses. Against the south wall, a buffet table holds an empty crystal decanter, matching goblets, and bottles of wine. But beneath a ragged hole in the keep's ceiling, a pile of snow has accumulated against the east wall. It's the only thing in this room that doesn't belong. And if you watch it long enough, it moves.",
+        "immersive": "The parlor is a study in contradictions. Someone has worked hard to make this room inviting — overstuffed armchairs, side tables with porcelain vases holding fresh roses, a buffet against the south wall with crystal goblets and bottles of aged wine. It's Lady Emer's sitting room, the kind of place she entertains the rare guest brave or stupid enough to visit. But the ceiling has a hole in it. Snow piles against the east wall in a mound that shouldn't be there. The rest of the room is immaculate — so why hasn't anyone cleaned the snow? Because the snow doesn't want to be cleaned. A creature with a passive Perception of 18 or higher notices: it shifts. Just slightly. When no one's looking."
+      },
+      "description": "Lady Emer's parlor — comfortable sitting room with enchanted living snow that duplicates the first Humanoid to touch it. Lady Emer arrives in 3 rounds if combat breaks out while she's in the library.",
+      "features": [
+        { "name": "Living Snow", "description": "Illusion magic from the keep's walls has seeped into the snow. Passive Perception 18 notices it shifting unnaturally. When a Humanoid touches it, it reforms into a duplicate of that Humanoid (Construct, same stats, mundane equipment copies, hostile). Fights until destroyed, then melts. Only enough snow for one duplicate.", "dc": 18 },
+        { "name": "Lady Emer Response", "description": "If combat breaks out here while Lady Emer is in the library (area E6), she arrives at the start of the third round." },
+        { "name": "Alternative Creatures", "description": "If the living snow duplicate is too complex, replace with a Crux of Frost (CR 8) or Gem Jelly (CR 9) instead." }
+      ],
+      "encounters": [
+        {
+          "name": "Living Snow Duplicate",
+          "monsters": [],
+          "notes": "The snow duplicates the FIRST Humanoid to touch it. This means it copies that character's stats, weapons, and abilities (as a Construct). The duplicate is hostile and fights to the death. If this is too complex to run, use a Crux of Frost or Gem Jelly instead.",
+          "dialogue": []
+        }
+      ],
+      "npcs": [],
+      "treasure": [
+        { "name": "Porcelain Vases", "description": "Four porcelain vases.", "value": "80 gp (20 gp each)" },
+        { "name": "Crystal Decanter Set", "description": "Crystal decanter and six crystal goblets.", "value": "50 gp" },
+        { "name": "Aged Fine Wine", "description": "Six bottles of aged fine wine.", "value": "120 gp (20 gp each)" }
+      ],
+      "dmNotes": [
+        "The living snow is a nasty surprise — it creates a mirror match against whatever PC touches it first.",
+        "Best case: a squishy PC touches it and fights their own duplicate. Worst case: the strongest PC touches it.",
+        "If this is too complex, use the Crux of Frost (illusionist theme) or Gem Jelly (simpler combat).",
+        "Lady Emer arriving at round 3 turns this into a two-front fight if the party didn't deal with her first.",
+        "The wine and treasures here are nice loot but not the main draw — E4 has the real hoard."
+      ],
+      "campaignNotes": [],
+      "mapImageUrl": null,
+      "senses": {
+        "sight": "Warm, inviting room. Overstuffed chairs. Roses in vases. Wine bottles on a buffet. And a pile of snow that shouldn't be there, beneath a hole in the ceiling.",
+        "sound": "Wind through the ceiling hole. The faint creak of settling furniture. Silence otherwise — too quiet.",
+        "smell": "Roses and aged wine. Cold air from the ceiling hole cuts through the warmth.",
+        "touch": "The chairs are genuinely comfortable. The wine is genuinely good. The snow is cold, wet, and — when touched — wrong.",
+        "instinct": "Don't touch the snow. Don't touch the snow. Don't touch the snow."
+      },
+      "ambiance": {
+        "music": [
+          { "name": "Cursed Parlor", "description": "Deceptively cozy room with hidden danger", "searchTerm": "haunted parlor music eerie comfortable dark fantasy", "tags": ["exploration", "tension"] }
+        ],
+        "sounds": [
+          { "name": "Fireplace and Wind", "description": "Crackling warmth mixed with cold wind from above", "searchTerm": "fireplace crackling wind through hole ambient", "tags": ["exploration"] }
+        ]
+      }
+    }
+  ]
+}

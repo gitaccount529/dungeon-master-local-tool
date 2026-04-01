@@ -1,0 +1,188 @@
+[
+  {
+    "id": "lady-emer",
+    "name": "Lady Emer",
+    "role": "Medusa Assassin — Boss of Cloud Fang Keep",
+    "personality": "Vain, extroverted, and lethally charming. Lady Emer craves company and conversation but will turn any social encounter deadly the moment she's bored, insulted, or her orders demand it. She is loyal to the Daughter of Ash, who grants her the beauty she desperately craves.",
+    "voiceNotes": "Speak slowly, with deliberate elegance — like a noblewoman hosting a dinner party. Every sentence should feel like an invitation and a threat simultaneously. Her voice is warm and cultured, with a subtle hiss on sibilants.",
+    "goals": "Capture or kill the hunters as ordered by the Daughter of Ash. Maintain her beauty through continued loyalty. Secretly, she still harbors dreams of ascending to godhood — the Daughter's power is a means to that end.",
+    "fears": "Losing her beauty. Being forgotten. Failing the Daughter of Ash and losing her patronage.",
+    "quirks": [
+      {
+        "description": "Writes terrible poetry constantly and reads it aloud to captives",
+        "dialogue": ["\"Listen to this one — I wrote it just this morning. 'The stone remembers what the flesh forgets...' No? You don't like it? How disappointing.\""]
+      },
+      {
+        "description": "Treats her basilisks like spoiled pets, cooing at them by name",
+        "dialogue": ["\"Blinkers, darling, don't drool on the new guests. Blunders! Stop eating the tapestry.\""]
+      },
+      {
+        "description": "Genuinely enjoys hosting guests — even if they're prisoners",
+        "dialogue": ["\"You must be exhausted from all that running. Sit, please. I'll have wine brought. We have so much to discuss before I deliver you to my patron.\""]
+      }
+    ],
+    "keyDialogue": [
+      "\"Guests are always welcome to stay. Intruders stay forever.\"",
+      "\"The Daughter of Ash speaks highly of you. She said you'd be... resilient. I do so love a challenge.\"",
+      "\"You escaped fire giants, yes? Impressive. But fire is crude. Stone is eternal. Let me show you.\"",
+      "\"Don't look away, darling. It's rude. And besides — it won't help.\"",
+      "\"I was human once, you know. I was beautiful then too. But now? Now I am perfect. The Daughter made sure of that.\""
+    ],
+    "sensory": {
+      "appearance": "A striking woman with olive skin, golden eyes, and serpentine hair that moves with predatory independence. She wears elegant black leather and carries a longbow of dark wood. Despite the horror of her nature, she is genuinely beautiful — the Daughter of Ash's gift.",
+      "sound": "The soft hissing of dozens of small serpents, each with its own cadence. The click of her boots on stone. Her voice: warm, cultured, always slightly amused.",
+      "smell": "Expensive perfume layered over something faintly chemical — venom.",
+      "presence": "Magnetic. You want to look at her, which is exactly the problem. Her confidence fills every room, and her snakes seem to track each person independently."
+    }
+  },
+  {
+    "id": "alia-sylf",
+    "name": "Alia Sylf",
+    "role": "Petrified Retainer — Human Mercenary",
+    "personality": "Cavalier, irreverent, and completely unfazed by having been turned to stone. Talks about her petrification like it was a mild inconvenience rather than a brush with permanent death.",
+    "voiceNotes": "Fast-talking, casual, with the easy confidence of a professional soldier who's seen too much to be impressed by anything. Think: seasoned mercenary who treats everything like a story for the tavern.",
+    "goals": "Get out alive. Get paid. Tell her captain what happened before said captain assumes she's dead and reassigns her bunk.",
+    "fears": "Her captain giving away her stuff. Being petrified again before she can tell the story.",
+    "quirks": [
+      {
+        "description": "Treats petrification as a minor inconvenience",
+        "dialogue": ["\"Wow. Was I really petrified? How long? Honestly, it wasn't that bad. I didn't even know time was passing. It's like I blinked.\"", "\"I was fighting Emer — I thought I was winning by the way — and now you're here rescuing me. Wild. Just wild.\""]
+      }
+    ],
+    "keyDialogue": [
+      "\"Oh, my captain is going to be so pissed.\"",
+      "\"Look, I can swing a halberd and patch up wounds. Point me at the exit and let's move.\""
+    ],
+    "sensory": {
+      "appearance": "A stocky human woman in battered medium armor, halberd across her back. Her expression when freed from stone is mostly confusion followed by immediate pragmatism.",
+      "sound": "Loud, confident voice. Occasional nervous laugh when describing nearly dying.",
+      "smell": "Stone dust and old sweat — petrification preserves everything.",
+      "presence": "Instantly takes charge. The kind of soldier who makes everyone else feel like the situation is manageable."
+    }
+  },
+  {
+    "id": "gorith-tork",
+    "name": "Gorith Tork",
+    "role": "Petrified Retainer — Orc Blacksmith",
+    "personality": "Quiet, dependable, and surprisingly gentle for someone built like a furnace. Values craftsmanship above all else. Still angry about losing his favorite hammer during the fight with Emer.",
+    "voiceNotes": "Deep, deliberate voice. Speaks in short, considered sentences. Never uses two words when one will do.",
+    "goals": "Retrieve his smithing tools. Repay the debt of being freed. Forge something worthy of the story.",
+    "fears": "Being useless. Having his skills wasted.",
+    "quirks": [
+      {
+        "description": "Evaluates every weapon and piece of armor he sees, offering unsolicited quality assessments",
+        "dialogue": ["\"That blade. The edge — uneven. I can fix.\"", "\"Good steel. Bad tempering. Two hours at a forge, I make it sing.\""]
+      }
+    ],
+    "keyDialogue": [
+      "\"Stone cold. Could not move. Could not breathe. But I could think. Many hours of thinking.\"",
+      "\"You freed me. I owe you iron and fire. Name it.\""
+    ],
+    "sensory": {
+      "appearance": "A broad-shouldered orc in a leather apron over medium armor, hands scarred from years at the forge. His tusks are chipped from a fight.",
+      "sound": "Low rumbling voice, like coals shifting in a furnace.",
+      "smell": "Charcoal, metal, and stone dust.",
+      "presence": "Solid and reassuring. The kind of person who makes you feel like things can be fixed."
+    }
+  },
+  {
+    "id": "kaxor",
+    "name": "Kaxor",
+    "role": "Petrified Retainer — Lizardfolk Hunter",
+    "personality": "Pragmatic to the point of seeming cold. Views the world through the lens of predator and prey. Respects strength and survival instinct above all.",
+    "voiceNotes": "Clipped, precise speech with long pauses between thoughts. Occasional lizardfolk idioms about hunting and weather.",
+    "goals": "Survive. Hunt. Understand why these soft-skins freed him instead of leaving a liability behind.",
+    "fears": "Captivity. Being trapped again.",
+    "quirks": [
+      {
+        "description": "Constantly assessing escape routes and evaluating threats",
+        "dialogue": ["\"Three exits. One blocked. Two guarded. The ceiling — possible, if the vines hold.\"", "\"The medusa is apex predator here. We are prey until we are not.\""]
+      }
+    ],
+    "keyDialogue": [
+      "\"You freed me. This creates obligation. I will honor it. Then we are even.\"",
+      "\"I tracked Emer for three days before she caught me. She is better than anything I have hunted.\""
+    ],
+    "sensory": {
+      "appearance": "A lean lizardfolk with mottled green-brown scales, wearing practical leather armor. Eyes constantly moving, tongue flicking to taste the air.",
+      "sound": "Soft, sibilant speech. The scrape of claws on stone.",
+      "smell": "Wet earth and reptilian musk.",
+      "presence": "Watchful. You never forget he's there because his eyes never stop tracking movement."
+    }
+  },
+  {
+    "id": "septima-vinculum",
+    "name": "Septima Vinculum",
+    "role": "Petrified Retainer — Kobold Decanus",
+    "personality": "Disciplined, proud, and fiercely loyal to her unit — even though her unit is long gone. She carries herself with the formal bearing of a professional soldier despite being two feet shorter than everyone else.",
+    "voiceNotes": "Crisp, military diction. Speaks like she's giving a field report. Uses rank structure and military terminology constantly.",
+    "goals": "Regroup with any surviving members of her unit. Failing that, adopt these rescuers as her new unit and defend them accordingly.",
+    "fears": "Dishonor. Being dismissed as 'just a kobold.'",
+    "quirks": [
+      {
+        "description": "Insists on proper military protocol and addresses everyone by rank — even if they don't have one",
+        "dialogue": ["\"Decanus Septima Vinculum, reporting for duty. What is the tactical situation?\"", "\"With respect, civilian, your formation is terrible. Tighten up.\""]
+      }
+    ],
+    "keyDialogue": [
+      "\"My unit fell to the medusa. All petrified. I was the last. I will not be the last again.\"",
+      "\"A kobold decanus commands ten. I have six stones where my soldiers were. Give me these rescuers and I will command again.\""
+    ],
+    "sensory": {
+      "appearance": "A small kobold in polished medium armor with a shield bearing a faded legion emblem. Stands at parade rest. Her dragon-scale collar marks her as a decanus.",
+      "sound": "Sharp, clipped orders. Boots stamping in formation cadence even when walking alone.",
+      "smell": "Metal polish and determination.",
+      "presence": "Larger than her body. Commands attention through sheer force of personality and discipline."
+    }
+  },
+  {
+    "id": "varnes-dwell",
+    "name": "Varnes Dwell",
+    "role": "Petrified Retainer — Hobgoblin Tactician",
+    "personality": "Brilliant, calculating, and haunted. Varnes has been reaching out through dreams while petrified, desperate for rescue. He's a fire mage and military strategist who hides deep fear behind intellectual analysis.",
+    "voiceNotes": "Precise, academic speech with an underlying tremor of someone who has been trapped too long. Speaks about magic and tactics the way a professor lectures — compulsively, to fill the silence.",
+    "goals": "Freedom. Then revenge. He wants to understand how Lady Emer caught him and ensure it never happens again.",
+    "fears": "The stone. Being conscious inside stone again. He could think but not act — the worst prison imaginable for a tactician.",
+    "quirks": [
+      {
+        "description": "Already has an escape plan formulated from months of thinking while petrified",
+        "dialogue": ["\"I have had... considerable time to think. I have a plan. Several plans, actually. Would you like the one with the highest survival probability, or the one that involves the most fire?\""]
+      }
+    ],
+    "keyDialogue": [
+      "\"I reached you in your dreams. I wasn't sure it worked. Thank you for coming.\"",
+      "\"The medusa's weakness is her vanity. Flatter her and she drops her guard. Insult her and she loses her composure. Either way — an opening.\""
+    ],
+    "sensory": {
+      "appearance": "A gaunt hobgoblin in scorched medium armor, hands faintly glowing with residual flame magic. Dark circles under his eyes from months of dreamwalking.",
+      "sound": "Rapid, precise speech. Fingers constantly moving, tracing tactical patterns in the air.",
+      "smell": "Sulfur and old parchment.",
+      "presence": "Intense. His mind is clearly moving faster than anyone else in the room, and he can barely contain it."
+    }
+  },
+  {
+    "id": "worjo",
+    "name": "Worjo",
+    "role": "Petrified Retainer — Minotaur Devastator (Medium)",
+    "personality": "Furious, loyal, and unexpectedly philosophical. Worjo was captured protecting Varnes and has no regrets. He processes trauma through rage, then through quiet reflection.",
+    "voiceNotes": "Low, rumbling voice that rises to a roar when angered. Surprisingly articulate for someone who communicates primarily through violence. Medium-sized for a minotaur — a fact that clearly bothers him.",
+    "goals": "Protect whoever freed him. Smash Lady Emer. Find a good meal — being stone for months builds an appetite.",
+    "fears": "Failing to protect his allies. Being too small to matter.",
+    "quirks": [
+      {
+        "description": "Complains about being medium-sized for a minotaur",
+        "dialogue": ["\"Yes, I am small for a minotaur. No, I will not discuss it. Yes, I can still put your head through a wall.\"", "\"My mother was Large. My father was Large. I am... efficient.\""]
+      }
+    ],
+    "keyDialogue": [
+      "\"I was protecting Varnes when she caught me. I would do it again. But this time, I would close my eyes.\"",
+      "\"Point me at the biggest threat. I will handle it. That is what I do.\""
+    ],
+    "sensory": {
+      "appearance": "A medium-sized minotaur in light armor, smaller than expected but densely muscled. His horns are scarred and battle-worn. Moves with barely contained kinetic energy.",
+      "sound": "Hooves on stone. Heavy breathing. The grinding of teeth.",
+      "smell": "Sweat, stone dust, and old leather.",
+      "presence": "Coiled violence waiting to happen. Even standing still, Worjo looks like he's about to charge."
+    }
+  }
+]

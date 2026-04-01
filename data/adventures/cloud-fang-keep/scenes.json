@@ -1,0 +1,48 @@
+[
+  {
+    "id": "approaching-the-keep",
+    "name": "Approaching Cloud Fang Keep",
+    "description": "The party must navigate the extreme cold and high altitude of Frigid Summit to reach — or escape from — Cloud Fang Keep. The thin air and freezing temperatures test endurance, while Lady Emer's owlbear and griffon patrols test awareness.",
+    "successThreshold": 3,
+    "failureThreshold": 3,
+    "skills": [
+      { "skill": "Constitution", "dc": 14, "description": "Endure the extreme cold and thin air of 23,421 feet elevation without succumbing to exhaustion." },
+      { "skill": "Survival", "dc": 15, "description": "Find safe paths through the ice and rock, avoiding unstable ground and hidden crevasses." },
+      { "skill": "Stealth", "dc": 15, "description": "Move through the approach without alerting the owlbear perimeter patrol or the griffon air patrol." },
+      { "skill": "Perception", "dc": 15, "description": "Spot the owlbear 'statues' flanking the entrance before getting within 30 feet (they attack at 30 ft)." },
+      { "skill": "Athletics", "dc": 14, "description": "Scale the icy terrain or climb the keep's outer walls to find an alternate entrance." }
+    ],
+    "successText": "The party reaches the keep prepared and undetected. They spot the owlbear sentries, identify the patrol patterns, and choose their entry point with full tactical awareness. The owlbears don't get surprise.",
+    "failureText": "The party is exhausted, frozen, or detected. The owlbear sentries get surprise. The four patrol owlbears are already moving to intercept. A griffon circles overhead, ready to swoop. Lady Emer may have been alerted."
+  },
+  {
+    "id": "befriending-lady-emer",
+    "name": "Befriending Lady Emer",
+    "description": "A social encounter in the library (area E6). Lady Emer is vain, lonely, and curious about the hunters. If the party can flatter her, entertain her, or offer something she wants, she may lower her guard — even against her orders from the Daughter of Ash. This is a high-stakes diplomatic challenge.",
+    "successThreshold": 3,
+    "failureThreshold": 2,
+    "skills": [
+      { "skill": "Persuasion", "dc": 19, "description": "Praise Lady Emer's skill as an assassin, her taste in literature, or her beauty. She responds to genuine flattery — not obvious sycophancy." },
+      { "skill": "Deception", "dc": 19, "description": "Claim to know secrets about achieving godhood, or pretend to have information the Daughter of Ash would value. Dangerous if caught." },
+      { "skill": "Performance", "dc": 17, "description": "Play music, recite poetry, or otherwise entertain Lady Emer. She is a patron of the arts and responds strongly to creative skill." },
+      { "skill": "Insight", "dc": 17, "description": "Read Lady Emer's emotional state to identify what topics please or anger her. Knowing her pressure points helps guide the conversation." },
+      { "skill": "History", "dc": 16, "description": "Demonstrate knowledge of the Order of the Ouroboros, medusa lore, or religious traditions related to ascension. Emer respects scholarship." }
+    ],
+    "successText": "Lady Emer is charmed. She invites the party to the grand salon for music, dancing, and wine. At the end of the evening, she gives them an item from her hoard, provides Lady Emer's key (avoiding the display case trap), and asks them to return. She may hesitate to carry out the Daughter of Ash's orders — creating an opening for escape or even turning her into an unlikely ally.",
+    "failureText": "Lady Emer grows bored or offended. Her golden eyes narrow. 'How disappointing,' she says. 'I had hoped you'd be interesting enough to keep alive.' She attacks, retreating to the stone garden (area E5) where her lair actions are strongest. The social opportunity is gone."
+  },
+  {
+    "id": "disarming-grand-salon-trap",
+    "name": "Disarming the Grand Salon Trap",
+    "description": "The display cases in the grand salon (area E4) hold Lady Emer's hoard, including the wand of restoration that could cure Ron and Rook's petrification. But the cases are trapped — tampering triggers a mesmerizing light show that incapacitates anyone who can see the ceiling or floor.",
+    "successThreshold": 2,
+    "failureThreshold": 2,
+    "skills": [
+      { "skill": "Thieves' Tools (Dexterity)", "dc": 18, "description": "Pick the display case lock without triggering the trap. This is the clean solution — one successful pick opens a case safely." },
+      { "skill": "Arcana", "dc": 17, "description": "Identify the nature of the illusion magic on the cases, chandeliers, and ceiling. Understanding the trap helps plan countermeasures." },
+      { "skill": "Investigation", "dc": 16, "description": "Examine the trap mechanism to determine safe approaches — such as covering the ceiling, closing eyes, or destroying chandeliers preemptively." }
+    ],
+    "successText": "The party opens the display cases without triggering the trap, claiming Lady Emer's hoard safely. The wand of restoration is theirs — Ron and Rook can be freed.",
+    "failureText": "The trap triggers. The chandeliers erupt in a mesmerizing light display — stained-glass images dance across the marble floor. For 1 minute, any creature who can see the floor or ceiling at the start of their turn must make a DC 17 Wisdom save or take 2d6 psychic damage and be incapacitated. Three chandeliers must be destroyed (AC 13, 25 HP each) to end it early — but each falling chandelier deals 10d6 bludgeoning damage below it."
+  }
+]

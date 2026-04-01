@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFF8E1" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#FFD54F" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#FF8F00" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#1a0a00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bodyHeat" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6F00"/>
+      <stop offset="60%" stop-color="#BF360C"/>
+      <stop offset="100%" stop-color="#4E342E"/>
+    </radialGradient>
+    <filter id="fireGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0a00"/>
+      <stop offset="100%" stop-color="#0d0500"/>
+    </linearGradient>
+    <linearGradient id="runeGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFECB3"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="url(#bg)"/>
+
+  <!-- Ambient glow behind figure -->
+  <ellipse cx="200" cy="200" rx="180" ry="220" fill="url(#glow)"/>
+
+  <!-- Body silhouette -->
+  <path d="M200 60 Q230 60 240 80 L255 120 Q265 130 270 150 L275 200 Q280 220 285 240 L290 300 Q285 340 280 380 L275 430 Q270 460 260 470 L240 480 Q220 485 200 485 Q180 485 160 480 L140 470 Q130 460 125 430 L120 380 Q115 340 110 300 L115 240 Q120 220 125 200 L130 150 Q135 130 145 120 L160 80 Q170 60 200 60Z" fill="url(#bodyHeat)" opacity="0.9"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="75" rx="30" ry="35" fill="#5D4037"/>
+  <ellipse cx="200" cy="75" rx="25" ry="30" fill="#6D4C41"/>
+
+  <!-- Eyes - glowing white-gold -->
+  <ellipse cx="188" cy="70" rx="5" ry="3" fill="#FFF8E1" filter="url(#fireGlow)"/>
+  <ellipse cx="212" cy="70" rx="5" ry="3" fill="#FFF8E1" filter="url(#fireGlow)"/>
+
+  <!-- Sacred runes on forearms -->
+  <g filter="url(#fireGlow)" opacity="0.9">
+    <!-- Left arm runes -->
+    <path d="M130 180 L125 200 M127 185 L133 195 M122 195 L132 190" stroke="url(#runeGlow)" stroke-width="2" fill="none"/>
+    <path d="M128 205 L124 220 M126 210 L130 215" stroke="url(#runeGlow)" stroke-width="2" fill="none"/>
+    <!-- Right arm runes -->
+    <path d="M270 180 L275 200 M273 185 L267 195 M278 195 L268 190" stroke="url(#runeGlow)" stroke-width="2" fill="none"/>
+    <path d="M272 205 L276 220 M274 210 L270 215" stroke="url(#runeGlow)" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Arms outstretched with healing fire -->
+  <path d="M130 150 Q110 160 95 180 L85 210 Q80 225 90 230" fill="#5D4037" opacity="0.8"/>
+  <path d="M270 150 Q290 160 305 180 L315 210 Q320 225 310 230" fill="#5D4037" opacity="0.8"/>
+
+  <!-- Healing flames from hands -->
+  <g filter="url(#fireGlow)">
+    <!-- Left hand flame -->
+    <path d="M85 220 Q80 200 75 185 Q70 170 80 165 Q85 175 90 185 Q85 180 82 170 Q78 155 88 160 Q95 170 90 190 Q95 180 92 165 Q100 175 95 195 L90 220Z" fill="#FFD54F" opacity="0.7"/>
+    <path d="M85 215 Q82 200 80 190 Q85 185 88 195 L87 215Z" fill="#FFF8E1" opacity="0.5"/>
+    <!-- Right hand flame -->
+    <path d="M315 220 Q320 200 325 185 Q330 170 320 165 Q315 175 310 185 Q315 180 318 170 Q322 155 312 160 Q305 170 310 190 Q305 180 308 165 Q300 175 305 195 L310 220Z" fill="#FFD54F" opacity="0.7"/>
+    <path d="M315 215 Q318 200 320 190 Q315 185 312 195 L313 215Z" fill="#FFF8E1" opacity="0.5"/>
+  </g>
+
+  <!-- Molten veins across body -->
+  <g opacity="0.6" stroke="#FF6F00" stroke-width="1.5" fill="none">
+    <path d="M180 120 Q190 150 185 180 Q180 200 185 230"/>
+    <path d="M220 120 Q210 150 215 180 Q220 200 215 230"/>
+    <path d="M170 160 Q185 170 200 165 Q215 170 230 160"/>
+  </g>
+
+  <!-- Ground heat effect -->
+  <ellipse cx="200" cy="475" rx="100" ry="15" fill="#FF6F00" opacity="0.15"/>
+  <ellipse cx="200" cy="475" rx="60" ry="8" fill="#FF8F00" opacity="0.2"/>
+
+  <!-- Floating light motes -->
+  <circle cx="150" cy="140" r="3" fill="#FFD54F" opacity="0.6" filter="url(#fireGlow)"/>
+  <circle cx="250" cy="160" r="2" fill="#FFD54F" opacity="0.5" filter="url(#fireGlow)"/>
+  <circle cx="170" cy="260" r="2.5" fill="#FFECB3" opacity="0.4" filter="url(#fireGlow)"/>
+  <circle cx="240" cy="280" r="2" fill="#FFECB3" opacity="0.5" filter="url(#fireGlow)"/>
+  <circle cx="130" cy="320" r="1.5" fill="#FFD54F" opacity="0.3" filter="url(#fireGlow)"/>
+  <circle cx="270" cy="340" r="2" fill="#FFD54F" opacity="0.4" filter="url(#fireGlow)"/>
+</svg>

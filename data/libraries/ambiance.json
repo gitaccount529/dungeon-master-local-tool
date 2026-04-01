@@ -1,0 +1,845 @@
+[
+  {
+    "id": "travel-ambiance",
+    "name": "The Approach — Magma Tunnels Beneath Roaring Peak Ambiance",
+    "description": "Ambiance preset from The Approach — Magma Tunnels Beneath Roaring Peak in the Molten Enclave",
+    "environment": "volcanic",
+    "music": [
+      {
+        "name": "Tunnel Crawl",
+        "description": "Low, droning dark ambient for cautious exploration through volcanic passages",
+        "searchTerm": "dark ambient volcanic cave exploration",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Magma Depths",
+        "description": "Deep, oppressive drone with subtle percussive rumbles for tense moments",
+        "searchTerm": "deep underground ambient dark drone music",
+        "tags": [
+          "tension",
+          "stealth"
+        ]
+      },
+      {
+        "name": "Tunnel Ambush",
+        "description": "Driving combat music with heavy drums for patrol encounters",
+        "searchTerm": "D&D combat music underground dungeon epic",
+        "tags": [
+          "combat"
+        ]
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Volcanic Rumbling",
+        "description": "Distant, low-frequency volcanic activity — the mountain breathing",
+        "searchTerm": "volcanic rumbling ambient sound effect loop",
+        "tags": [
+          "exploration",
+          "tension"
+        ]
+      },
+      {
+        "name": "Echoing Footsteps",
+        "description": "Footsteps reverberating through stone tunnels, creating unease",
+        "searchTerm": "echoing footsteps cave tunnel sound effect",
+        "tags": [
+          "exploration",
+          "stealth"
+        ]
+      },
+      {
+        "name": "Sulfur Wind",
+        "description": "Hot, whistling drafts through narrow passages carrying acrid fumes",
+        "searchTerm": "wind through cave tunnel howling ambient",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Dripping Condensation",
+        "description": "Water hissing and dripping on hot stone surfaces",
+        "searchTerm": "water dripping cave echo ambient sound",
+        "tags": [
+          "exploration",
+          "stealth"
+        ]
+      }
+    ],
+    "source": "imported",
+    "tags": [
+      "molten-enclave",
+      "volcanic"
+    ]
+  },
+  {
+    "id": "overview-ambiance",
+    "name": "Zone Overview — The Molten Enclave Ambiance",
+    "description": "Ambiance preset from Zone Overview — The Molten Enclave in the Molten Enclave",
+    "environment": "volcanic",
+    "music": [
+      {
+        "name": "Fortress of Fire",
+        "description": "Default fortress ambiance — a warm, resonant drone conveying massive scale and ancient stone",
+        "searchTerm": "fantasy fortress ambient music fire dungeon",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Legion March",
+        "description": "Slow, heavy percussion and low brass for scenes of giant activity and military presence",
+        "searchTerm": "epic giant march ambient music fantasy",
+        "tags": [
+          "exploration",
+          "tension"
+        ]
+      },
+      {
+        "name": "Enclave Battle",
+        "description": "General-purpose combat music for fights throughout the fortress",
+        "searchTerm": "D&D combat music epic fire dungeon battle",
+        "tags": [
+          "combat"
+        ]
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Lava Flow",
+        "description": "Bubbling, crackling lava flowing through channels — the heartbeat of the Enclave",
+        "searchTerm": "lava flow bubbling ambient sound loop",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Distant Hammering",
+        "description": "Faint, rhythmic metalwork echoing from the forge through stone corridors",
+        "searchTerm": "distant blacksmith hammering echo ambient",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Giant Footsteps",
+        "description": "Heavy, booming footsteps reverberating through stone — giants moving nearby",
+        "searchTerm": "giant heavy footsteps stone floor rumble sound",
+        "tags": [
+          "exploration",
+          "tension"
+        ]
+      },
+      {
+        "name": "Mountain Groaning",
+        "description": "Deep structural vibrations of the living volcano — used for alarm or atmosphere",
+        "searchTerm": "deep rumbling earthquake ambient sound effect",
+        "tags": [
+          "tension"
+        ]
+      }
+    ],
+    "source": "imported",
+    "tags": [
+      "molten-enclave",
+      "volcanic"
+    ]
+  },
+  {
+    "id": "z1-ambiance",
+    "name": "Z1 — Entrance Stairs Ambiance",
+    "description": "Ambiance preset from Z1 — Entrance Stairs in the Molten Enclave",
+    "environment": "volcanic",
+    "music": [
+      {
+        "name": "Echoing Descent",
+        "description": "Reverberant, slowly building ambient music evoking a long downward journey into darkness",
+        "searchTerm": "dark ambient descent staircase dungeon music",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Stair Guard Clash",
+        "description": "Urgent combat music with echoing percussion for the entrance fight",
+        "searchTerm": "D&D combat music intense dungeon entrance battle",
+        "tags": [
+          "combat"
+        ]
+      },
+      {
+        "name": "Careful Approach",
+        "description": "Tense, quiet ambient for sneaking past the sentries",
+        "searchTerm": "stealth tension ambient music fantasy sneaking",
+        "tags": [
+          "stealth",
+          "tension"
+        ]
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Stairwell Wind",
+        "description": "Wind funneling up from the depths, carrying heat and distant sounds",
+        "searchTerm": "wind tunnel echo cave ambient sound",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Distant Forge Echoes",
+        "description": "Faint metalwork and giant voices drifting up from the Enclave below",
+        "searchTerm": "distant echoing forge hammering ambient",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Stone Crumbling",
+        "description": "Small rocks and grit falling from the stairwell walls",
+        "searchTerm": "rocks crumbling falling debris cave sound effect",
+        "tags": [
+          "exploration",
+          "tension"
+        ]
+      },
+      {
+        "name": "Test",
+        "description": "Test",
+        "searchTerm": "https://www.youtube.com/watch?v=m323y75aQOI&list=RDm323y75aQOI&start_radio=1",
+        "tags": [
+          "exploration"
+        ]
+      }
+    ],
+    "source": "imported",
+    "tags": [
+      "molten-enclave",
+      "volcanic"
+    ]
+  },
+  {
+    "id": "z2-ambiance",
+    "name": "Z2 — Trapped Atrium Ambiance",
+    "description": "Ambiance preset from Z2 — Trapped Atrium in the Molten Enclave",
+    "environment": "volcanic",
+    "music": [
+      {
+        "name": "Held Breath",
+        "description": "Nearly silent, tension-building ambient with occasional deep tones — the calm before the trap",
+        "searchTerm": "tense silence ambient suspense music dungeon",
+        "tags": [
+          "tension",
+          "stealth"
+        ]
+      },
+      {
+        "name": "Atrium Ambush",
+        "description": "Sudden, sharp combat music for when the trap springs or ambush triggers",
+        "searchTerm": "D&D ambush combat music sudden intense",
+        "tags": [
+          "combat"
+        ]
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Dripping Condensation",
+        "description": "Slow, echoing drips of water condensing on cold stone — the only sound in the room",
+        "searchTerm": "water dripping echo large room ambient",
+        "tags": [
+          "exploration",
+          "tension"
+        ]
+      },
+      {
+        "name": "Settling Stone",
+        "description": "Faint creaks and groans of ancient masonry under pressure",
+        "searchTerm": "stone settling creaking building ambient sound",
+        "tags": [
+          "tension",
+          "stealth"
+        ]
+      },
+      {
+        "name": "Faint Wire Hum",
+        "description": "An almost imperceptible metallic vibration — the trap wire resonating in still air",
+        "searchTerm": "thin wire vibrating metallic hum sound effect",
+        "tags": [
+          "tension"
+        ]
+      }
+    ],
+    "source": "imported",
+    "tags": [
+      "molten-enclave",
+      "volcanic"
+    ]
+  },
+  {
+    "id": "z3-ambiance",
+    "name": "Z3 — The Crucible Ambiance",
+    "description": "Ambiance preset from Z3 — The Crucible in the Molten Enclave",
+    "environment": "volcanic",
+    "music": [
+      {
+        "name": "Arena Energy",
+        "description": "Pounding, rhythmic percussion building excitement — the crowd is fired up",
+        "searchTerm": "arena combat drums tribal percussion fantasy music",
+        "tags": [
+          "combat",
+          "exploration"
+        ]
+      },
+      {
+        "name": "Champion's Trial",
+        "description": "Epic, dramatic combat music for formal pit fights and trial by combat",
+        "searchTerm": "D&D boss arena combat music epic gladiator",
+        "tags": [
+          "combat",
+          "boss"
+        ]
+      },
+      {
+        "name": "Crucible Tension",
+        "description": "Heavy, anticipatory music for the moments before a fight begins",
+        "searchTerm": "pre-battle tension music fantasy arena suspense",
+        "tags": [
+          "tension"
+        ]
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Roaring Crowd",
+        "description": "Deep-voiced giants bellowing, pounding iron rails, cheering fighters on",
+        "searchTerm": "arena crowd roaring cheering deep voices ambient",
+        "tags": [
+          "exploration",
+          "combat"
+        ]
+      },
+      {
+        "name": "Combat Impacts",
+        "description": "Fists on flesh, iron clashing, thunderous blows echoing off the pyramidal ceiling",
+        "searchTerm": "fist fighting impact melee combat sound effects",
+        "tags": [
+          "combat"
+        ]
+      },
+      {
+        "name": "Iron Railing Percussion",
+        "description": "Giants rhythmically pounding the iron railing around the pit",
+        "searchTerm": "metal banging rhythmic industrial percussion sound",
+        "tags": [
+          "exploration",
+          "combat"
+        ]
+      }
+    ],
+    "source": "imported",
+    "tags": [
+      "molten-enclave",
+      "volcanic"
+    ]
+  },
+  {
+    "id": "z4-ambiance",
+    "name": "Z4 — Gym Ambiance",
+    "description": "Ambiance preset from Z4 — Gym in the Molten Enclave",
+    "environment": "volcanic",
+    "music": [
+      {
+        "name": "Military Discipline",
+        "description": "Steady, marching rhythm with a martial tone — drills and formations in progress",
+        "searchTerm": "military march ambient music fantasy training",
+        "tags": [
+          "exploration"
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=V_FimUxIhSg"
+      },
+      {
+        "name": "Training Grounds Combat",
+        "description": "Mid-tempo combat music for skirmishes in the gymnasium",
+        "searchTerm": "D&D combat music training fight medium intensity",
+        "tags": [
+          "combat"
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=OzmD-GLYDIc"
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Rhythmic Drilling",
+        "description": "Heavy, synchronized footsteps and weapon strikes in cadence",
+        "searchTerm": "military drill marching cadence heavy footsteps",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Training Cadence",
+        "description": "A deep voice calling out commands in Giant, troops responding in unison",
+        "searchTerm": "military training call response chanting deep voice",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Weapon Impacts",
+        "description": "Greatswords and halberds striking training dummies — heavy, rhythmic thuds",
+        "searchTerm": "sword hitting wood training dummy impact sound",
+        "tags": [
+          "exploration",
+          "combat"
+        ]
+      }
+    ],
+    "source": "imported",
+    "tags": [
+      "molten-enclave",
+      "volcanic"
+    ]
+  },
+  {
+    "id": "z5-ambiance",
+    "name": "Z5 — The Forge Ambiance",
+    "description": "Ambiance preset from Z5 — The Forge in the Molten Enclave",
+    "environment": "volcanic",
+    "music": [
+      {
+        "name": "Heart of the Forge",
+        "description": "Deep, industrial drone mixed with rhythmic hammering — the forge as a living thing",
+        "searchTerm": "fantasy forge ambient music dark industrial smithing",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Forge Fight",
+        "description": "Intense combat music with metallic overtones for fighting amid the forge",
+        "searchTerm": "D&D combat music forge fire intense battle",
+        "tags": [
+          "combat"
+        ]
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Anvil Hammering",
+        "description": "Ringing, rhythmic blows of a massive hammer on a giant anvil",
+        "searchTerm": "blacksmith anvil hammering rhythmic sound effect",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Bellows Breathing",
+        "description": "Deep, rhythmic whooshing of enormous bellows feeding the forge fire",
+        "searchTerm": "forge bellows breathing whoosh ambient sound",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Quenching Hiss",
+        "description": "Hot metal plunged into water — violent hissing and steam bursts",
+        "searchTerm": "hot metal quenching water hiss steam sound effect",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Crackling Forge Fire",
+        "description": "Roaring, popping magma-fed furnace fire filling the chamber with heat",
+        "searchTerm": "large fire crackling roaring furnace ambient loop",
+        "tags": [
+          "exploration"
+        ]
+      }
+    ],
+    "source": "imported",
+    "tags": [
+      "molten-enclave",
+      "volcanic"
+    ]
+  },
+  {
+    "id": "z6-ambiance",
+    "name": "Z6 — Dining Hall Ambiance",
+    "description": "Ambiance preset from Z6 — Dining Hall in the Molten Enclave",
+    "environment": "volcanic",
+    "music": [
+      {
+        "name": "Hearth and Hall",
+        "description": "Warm, low ambient music evoking a communal gathering — almost cozy despite the scale",
+        "searchTerm": "fantasy tavern ambient music warm deep low",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Under the Table",
+        "description": "Tense stealth music for crawling beneath giant furniture while giants eat above",
+        "searchTerm": "stealth sneaking tension ambient music fantasy",
+        "tags": [
+          "stealth",
+          "tension"
+        ]
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Giant Conversation",
+        "description": "Deep, rumbling voices in casual conversation — indistinct but animated",
+        "searchTerm": "crowd murmur deep voices tavern ambient loop",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Eating and Drinking",
+        "description": "Iron utensils scraping stone plates, liquid pouring, heavy chewing",
+        "searchTerm": "medieval eating drinking feast ambient sound",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Cooking Fires",
+        "description": "Crackling fires, bubbling pots, and sizzling meat from the wall recesses",
+        "searchTerm": "cooking fire sizzling bubbling pot ambient sound",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Barking Laughter",
+        "description": "Occasional eruptions of deep, booming laughter punctuating the meal",
+        "searchTerm": "deep booming laughter crowd ambient sound",
+        "tags": [
+          "exploration"
+        ]
+      }
+    ],
+    "source": "imported",
+    "tags": [
+      "molten-enclave",
+      "volcanic"
+    ]
+  },
+  {
+    "id": "z7-ambiance",
+    "name": "Z7 — Storage Area Ambiance",
+    "description": "Ambiance preset from Z7 — Storage Area in the Molten Enclave",
+    "environment": "volcanic",
+    "music": [
+      {
+        "name": "Quiet Refuge",
+        "description": "Subdued, calm ambient for a brief respite — muffled and enclosed",
+        "searchTerm": "quiet ambient music rest calm dungeon safe room",
+        "tags": [
+          "exploration",
+          "rest"
+        ]
+      },
+      {
+        "name": "Something Stirs",
+        "description": "Low tension music for when a patrol approaches the storage rooms",
+        "searchTerm": "suspense ambient music quiet tension approaching danger",
+        "tags": [
+          "tension",
+          "stealth"
+        ]
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Muffled Enclave",
+        "description": "Distant, muted sounds from other rooms — hammering, voices, rumbling — all filtered through stone walls",
+        "searchTerm": "muffled sounds through walls distant ambient",
+        "tags": [
+          "exploration",
+          "rest"
+        ]
+      },
+      {
+        "name": "Creaking Crates",
+        "description": "Wood and rope settling under enormous weight — faint groans and pops",
+        "searchTerm": "wooden crate creaking settling ambient sound",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Dripping Water",
+        "description": "Condensation dripping slowly in the cooler storage area",
+        "searchTerm": "slow water dripping quiet room ambient",
+        "tags": [
+          "exploration",
+          "rest"
+        ]
+      }
+    ],
+    "source": "imported",
+    "tags": [
+      "molten-enclave",
+      "volcanic"
+    ]
+  },
+  {
+    "id": "z8-ambiance",
+    "name": "Z8 — Barracks Ambiance",
+    "description": "Ambiance preset from Z8 — Barracks in the Molten Enclave",
+    "environment": "volcanic",
+    "music": [
+      {
+        "name": "Sleeping Giants",
+        "description": "Almost-silent ambient with barely perceptible low tones — maximum tension through quietness",
+        "searchTerm": "ultra quiet tension ambient music stealth suspense",
+        "tags": [
+          "stealth",
+          "tension"
+        ]
+      },
+      {
+        "name": "They Wake",
+        "description": "Erupting, chaotic combat music for the catastrophic scenario of waking the barracks",
+        "searchTerm": "D&D combat music chaotic panic overwhelming battle",
+        "tags": [
+          "combat"
+        ]
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Deep Rumbling Snores",
+        "description": "Seismic, overlapping snoring from fifteen fire giants — a wall of sound",
+        "searchTerm": "deep loud snoring rumbling multiple people sleeping",
+        "tags": [
+          "exploration",
+          "stealth"
+        ]
+      },
+      {
+        "name": "Shifting Giants",
+        "description": "Occasional heavy movements — a giant rolling over, leather blankets rustling",
+        "searchTerm": "heavy body shifting bed movement ambient sound",
+        "tags": [
+          "stealth",
+          "tension"
+        ]
+      },
+      {
+        "name": "Pebble Rain",
+        "description": "Tiny rocks and grit pattering down from the vibrating ceiling",
+        "searchTerm": "small rocks pebbles falling debris ambient sound",
+        "tags": [
+          "stealth",
+          "exploration"
+        ]
+      }
+    ],
+    "source": "imported",
+    "tags": [
+      "molten-enclave",
+      "volcanic"
+    ]
+  },
+  {
+    "id": "z9-ambiance",
+    "name": "Z9 — Crater of the Core Ambiance",
+    "description": "Ambiance preset from Z9 — Crater of the Core in the Molten Enclave",
+    "environment": "volcanic",
+    "music": [
+      {
+        "name": "Meditation at the Core",
+        "description": "Deep, spiritual drone with subtle chanting — Aastrika in communion with the volcano",
+        "searchTerm": "deep meditative chanting drone spiritual ambient",
+        "tags": [
+          "spiritual",
+          "exploration"
+        ]
+      },
+      {
+        "name": "Volcano's Wrath",
+        "description": "Massive, overwhelming boss combat music with volcanic intensity",
+        "searchTerm": "D&D boss fight music epic volcanic fire giant battle",
+        "tags": [
+          "boss",
+          "combat"
+        ]
+      },
+      {
+        "name": "Sacred Ground",
+        "description": "Reverent, ominous ambient for the moment of seeing Aastrika and the Crown",
+        "searchTerm": "ominous sacred ambient music dark temple revelation",
+        "tags": [
+          "tension",
+          "spiritual"
+        ]
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Bubbling Lava Core",
+        "description": "A massive lava pool churning and popping — the dominant sound of the chamber",
+        "searchTerm": "lava bubbling large pool volcanic ambient loop",
+        "tags": [
+          "exploration",
+          "spiritual",
+          "combat"
+        ]
+      },
+      {
+        "name": "Meditative Chanting",
+        "description": "Low, resonant fire giant chanting in a ritualistic cadence around the Core",
+        "searchTerm": "deep monk chanting ritual meditation ambient",
+        "tags": [
+          "spiritual",
+          "exploration"
+        ]
+      },
+      {
+        "name": "Brazier Flames",
+        "description": "Sacred braziers crackling and hissing with conjuration-infused fire",
+        "searchTerm": "magical fire crackling brazier torch ambient loop",
+        "tags": [
+          "exploration",
+          "combat"
+        ]
+      },
+      {
+        "name": "Volcanic Updraft",
+        "description": "Hot wind roaring up through the open chimney above — the volcano breathing",
+        "searchTerm": "strong wind updraft roaring chimney ambient sound",
+        "tags": [
+          "exploration",
+          "combat"
+        ]
+      }
+    ],
+    "source": "imported",
+    "tags": [
+      "molten-enclave",
+      "volcanic"
+    ]
+  },
+  {
+    "id": "z10-ambiance",
+    "name": "Z10 — Secret Sanctum Ambiance",
+    "description": "Ambiance preset from Z10 — Secret Sanctum in the Molten Enclave",
+    "environment": "volcanic",
+    "music": [
+      {
+        "name": "Hidden Wonder",
+        "description": "Ethereal, awe-inspiring ambient — the shock of discovering a secret treasure vault",
+        "searchTerm": "discovery wonder ambient music treasure cave ethereal",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Sanctum Silence",
+        "description": "Nearly inaudible drone creating a sense of sacred, untouched stillness",
+        "searchTerm": "eerie silence ambient music sacred hidden chamber",
+        "tags": [
+          "exploration",
+          "spiritual"
+        ]
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Eerie Silence",
+        "description": "The near-total absence of sound after the Enclave's constant noise — deafening quiet",
+        "searchTerm": "quiet room tone ambient silence cave",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Lava Glow Hum",
+        "description": "A faint, low-frequency hum from the lava pool entrance — the only connection to the outside",
+        "searchTerm": "low frequency hum drone ambient subtle",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Mineral Water Drip",
+        "description": "Crystal-clear water droplets falling slowly in the cool, still chamber",
+        "searchTerm": "water dripping cave crystal clear echo ambient",
+        "tags": [
+          "exploration"
+        ]
+      },
+      {
+        "name": "Treasure Glitter",
+        "description": "Faint, high-pitched shimmering tones — the phosphorescent light reflecting off gold and gems",
+        "searchTerm": "magical shimmer sparkle treasure sound effect ambient",
+        "tags": [
+          "exploration"
+        ]
+      }
+    ],
+    "source": "imported",
+    "tags": [
+      "molten-enclave",
+      "volcanic"
+    ]
+  },
+  {
+    "id": "ruined-temple-ambiance",
+    "name": "Ruined Temple of Scarlet Rot Ambiance",
+    "description": "Ambiance preset from Ruined Temple of Scarlet Rot",
+    "environment": "volcanic",
+    "music": [
+      {
+        "name": "Scarlet Rot Boss",
+        "description": "Oppressive, diseased atmosphere with building dread",
+        "searchTerm": "elden ring scarlet rot boss music dark ambient",
+        "tags": [
+          "boss",
+          "combat"
+        ]
+      },
+      {
+        "name": "Ruined Cathedral",
+        "description": "Eerie exploration of a corrupted holy place",
+        "searchTerm": "dark souls ruined cathedral ambient dark choir",
+        "tags": [
+          "exploration",
+          "tension"
+        ]
+      }
+    ],
+    "sounds": [
+      {
+        "name": "Wet Rot Ambience",
+        "description": "Bubbling, shifting liquid. Dripping. Organic squelching.",
+        "searchTerm": "swamp ambience bubbling rot dark fantasy",
+        "tags": [
+          "exploration",
+          "combat"
+        ]
+      },
+      {
+        "name": "Crow Shrieks",
+        "description": "Distant bird-like screeches mixed with human screams",
+        "searchTerm": "crow shriek horror sound effect dark",
+        "tags": [
+          "combat",
+          "tension"
+        ]
+      }
+    ],
+    "source": "imported",
+    "tags": [
+      "where-evil-lives",
+      "ambiance"
+    ]
+  }
+]

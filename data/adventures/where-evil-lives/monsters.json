@@ -1,0 +1,83 @@
+[
+  {
+    "id": "monstrous-crow-scarlet-rot",
+    "name": "Monstrous Crow of the Scarlet Rot",
+    "size": "Gargantuan",
+    "type": "Monstrosity",
+    "alignment": "Chaotic Evil",
+    "cr": "21",
+    "role": "Leader",
+    "ac": 20,
+    "acType": "natural armor",
+    "hp": 402,
+    "hpFormula": "23d20 + 161",
+    "speed": "50 ft., climb 40 ft., fly 60 ft.",
+    "stats": { "str": 27, "dex": 18, "con": 24, "int": 8, "wis": 16, "cha": 18 },
+    "savingThrows": "CON +14, WIS +10, CHA +11",
+    "skills": "Athletics +15, Perception +10, Stealth +18, Deception +11",
+    "damageResistances": "Poison; Nonmagical B/P/S",
+    "conditionImmunities": "Charmed, Dazed, Frightened, Paralyzed, Petrified, Poisoned, Stunned",
+    "senses": "Blindsight 120 ft., Truesight 60 ft., PP 20",
+    "languages": "Common, Abyssal (mimicry only)",
+    "namedNPC": true,
+    "imageUrl": "monstrous-crow.png",
+    "description": "A towering horror of matted feathers and exposed, tumor-riddled flesh. Its single gleaming eye tracks movement with predatory intelligence while scarlet rot weeps from every wound.",
+    "traits": [
+      { "name": "Rotting Resilience (3/Day)", "description": "When the Monstrous Crow fails a saving throw, it can choose to succeed instead. When it does, its speed is halved, it can't take the Disengage action, and it can't use Ruin-Hop until the end of its next turn." },
+      { "name": "Magic Resistance", "description": "The Monstrous Crow has advantage on saving throws against spells and other magical effects." },
+      { "name": "Mimic the Dying", "description": "The crow can perfectly mimic Corwyn's voice or any creature it has heard. DC 19 Wisdom (Insight) to detect." },
+      { "name": "Kenku Recall", "description": "The crow remembers every attack used against it. If a creature repeats the same attack type (same spell or same weapon) it already used in a previous round, that attack has disadvantage." },
+      { "name": "Rogue's Instinct", "description": "Evasion (Dex saves: success = no damage, fail = half). Can Hide as a bonus action. Double proficiency on Stealth (included)." },
+      { "name": "Pounce", "description": "If the crow moves at least 20 ft. straight toward a creature and hits with a Carrion Talon, DC 19 Str save or prone. If prone, crow can make one Rending Beak as a bonus action." },
+      { "name": "Running Leap", "description": "With a 10-foot running start, long jump up to 30 ft., high jump up to 20 ft." },
+      { "name": "Scarlet Mire Strider", "description": "Ignores difficult terrain from scarlet rot, ruined stone, corpses, or rubble." },
+      { "name": "Consumed Rot (3/Day)", "description": "On a successful save, the crow hardens itself. Until end of its next turn, scarlet rot doesn't affect it and it can't be blinded." }
+    ],
+    "actions": [
+      { "name": "Multiattack", "description": "The crow makes one Rending Beak and two Carrion Talon attacks. It can replace one Talon with a Snatch." },
+      { "name": "Rending Beak", "description": "+15 to hit, 15 ft., one target. Hit: 33 (4d12+8) piercing. If Medium or smaller, grappled (escape DC 19) and restrained. Crow can't bite another target while grappling." },
+      { "name": "Carrion Talon", "description": "+15 to hit, 10 ft., one target. Hit: 20 (3d8+8) slashing. Can move target up to 15 ft. horizontally (Huge or smaller)." },
+      { "name": "Snatch", "description": "+15 to hit, 10 ft. On hit, DC 19 Dex save or crow steals one held/worn item and drops it in scarlet rot 30 ft. away. Action to retrieve." },
+      { "name": "Blightshriek (Recharge 5\u20136)", "description": "90 ft. line, 20 ft. wide. DC 19 Con save or 28 (8d6) poison + 2 Scarlet Rot stacks (half, 1 stack on save). Area becomes scarlet rot terrain for 1 min." },
+      { "name": "Wing Gust (Recharge 5\u20136)", "description": "60 ft. cone. DC 19 Str save or 24 (7d6) bludgeoning + pushed 30 ft. + prone (half, no push on save). Ranged attacks through area have disadvantage until end of crow's next turn." }
+    ],
+    "bonusActions": [
+      { "name": "Discordant Squawk", "description": "All enemies within 60 ft.: DC 19 Int save or -2 attack rolls until start of crow's next turn." },
+      { "name": "Bloodmist Veil", "description": "One creature within 120 ft. DC 19 Dex save or lightly obscured to itself + 1 Scarlet Rot stack. Until start of crow's next turn." },
+      { "name": "Ruin-Hop", "description": "Leaps up to half speed without provoking. Must end on rubble, architecture, or in scarlet rot." },
+      { "name": "Phantom Wall (Illusion)", "description": "Creates 20\u00d720 ft. illusory wall within 120 ft. DC 19 Investigation (action) to see through. Lasts 1 min or until used again." }
+    ],
+    "reactions": [
+      { "name": "Feint", "description": "Trigger: Hit by melee. Feigns a stagger. Ask next player: 'The crow looks stunned \u2014 do you want to take advantage?' If they attack with advantage, crow makes auto-hit Rending Beak." },
+      { "name": "Spoil the Cure", "description": "Trigger: Creature within 60 ft. regains HP. DC 19 Con save or half healing + 1 Scarlet Rot stack." },
+      { "name": "Snatch and Grab", "description": "Trigger: Creature within 10 ft. casts with focus/component. DC 19 Dex save or crow steals focus. Spell fails (slot not expended)." }
+    ],
+    "legendaryActions": [
+      { "name": "Talon Strike (1)", "description": "Make one Carrion Talon attack." },
+      { "name": "Ruin-Hop (1)", "description": "Leap up to half speed without provoking." },
+      { "name": "Squawk (1)", "description": "Use Discordant Squawk." },
+      { "name": "Snatch (2)", "description": "Make one Snatch attack." },
+      { "name": "Wing Buffet (2)", "description": "Each creature within 15 ft: DC 19 Dex save or 12 (2d6+5) bludgeoning, pushed 10 ft., +1 Scarlet Rot stack. Crow can Ruin-Hop (free)." },
+      { "name": "Phantom Wall (2)", "description": "Use Phantom Wall." },
+      { "name": "Blinding Bile (3)", "description": "Spit bile at one creature within 60 ft. +15 to hit. Hit: 14 (4d6) poison + 3 Scarlet Rot stacks." }
+    ],
+    "villainActions": [
+      { "name": "Villain Action 1 \u2014 Stolen Darkness", "description": "Magical Darkness fills the entire lair (300 ft.) until end of crow's next turn. Crow can see through it. Light spells \u22644th suppressed. Crow uses Ruin-Hop (free)." },
+      { "name": "Villain Action 2 \u2014 Rot-Shed Form", "description": "Gains resistance to B/P/S, can move through creatures/objects (difficult terrain) until end of next turn. Creatures it passes through: DC 19 Con save or 2 Scarlet Rot stacks. Teleports 120 ft. Makes one Snatch (free)." },
+      { "name": "Villain Action 3 \u2014 Death Throes Mimicry", "description": "Trigger: 100 HP or below. DC 19 Wis save or stunned (believes they're killing Corwyn). Crow makes full Multiattack targeting stunned first. Success = immune." }
+    ],
+    "legendarySaves": 3,
+    "hitFlavor": [
+      "The blow crunches through matted feathers, spattering scarlet ichor.",
+      "Steel bites into diseased flesh \u2014 the crow shrieks, a sound like tearing metal.",
+      "The strike connects with a wet thud. Something inside the crow ruptures and leaks red mist.",
+      "Your weapon sinks deep. The wound immediately begins weeping scarlet rot."
+    ],
+    "missFlavor": [
+      "The crow twists with impossible speed, your strike slicing only air and rot-mist.",
+      "It hops aside on those grotesque legs \u2014 faster than anything that size should move.",
+      "Your weapon passes through a cloud of scarlet mist where the crow was a heartbeat ago.",
+      "The crow flicks a wing almost lazily, deflecting the blow with a shower of diseased feathers."
+    ]
+  }
+]

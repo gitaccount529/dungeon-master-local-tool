@@ -1,0 +1,68 @@
+{
+  "travelSection": null,
+  "zoneOverview": null,
+  "zones": [
+    {
+      "id": "ruined-temple",
+      "name": "Ruined Temple of Scarlet Rot",
+      "readAloud": {
+        "punchy": "A cathedral skeleton drowning in scarlet mire. Broken columns jut from the rot like islands. Somewhere in the red mist, Corwyn's voice screams.",
+        "atmospheric": "The air thickens with a wet, coppery stench. Through red mist, broken arches emerge \u2014 the skeleton of a cathedral half-swallowed by something worse than time. The floor is gone, replaced by a shallow lake of foul scarlet mire. Broken columns and fallen slabs jut from the rot like islands. And somewhere in the mist, you hear Corwyn's voice. Screaming.",
+        "immersive": "The air thickens with a wet, coppery stench long before you see the temple. Through the red mist, broken arches emerge \u2014 the skeleton of a cathedral half-swallowed by something worse than time. The floor is gone. In its place, a shallow lake of foul scarlet mire stretches from wall to crumbling wall. It moves. Not like water. Like something alive and spreading. Broken columns and fallen slabs of stone jut from the rot like islands \u2014 the only dry ground in sight. And somewhere in the mist, above the soft wet sounds of the rot, you hear a voice. Corwyn's voice. Screaming."
+      },
+      "description": "A vast ruined temple consumed by scarlet rot. The Monstrous Crow nests among the broken arches, wearing stolen magical trinkets and mimicking Corwyn's voice to lure prey into the mire.",
+      "features": [
+        { "name": "Scarlet Rot Terrain", "description": "Temple floor drowned in foul red mire. +1 Scarlet Rot stack when entering or starting turn. No save.", "mechanical": "+1 rot stack per exposure" },
+        { "name": "Elevated Ruins", "description": "Scattered rubble, broken columns, fallen masonry. Difficult terrain but safe from rot. The crow moves freely through both." },
+        { "name": "Corwyn's Voice", "description": "The crow periodically mimics Corwyn's screams, pleas, or warnings to lure PCs into the rot. DC 19 Insight to detect.", "dc": 19 },
+        { "name": "Crumbling Architecture", "description": "Columns and platforms: AC 15, 30 HP. If destroyed while a creature stands on it, creature falls into rot (+2 Scarlet Rot stacks).", "mechanical": "AC 15, 30 HP" },
+        { "name": "Visibility", "description": "Red mist fills the temple. >60 ft. = lightly obscured. Crow's blindsight 120 ft. and truesight 60 ft. ignore this." }
+      ],
+      "encounters": [
+        {
+          "name": "The Monstrous Crow",
+          "monsters": ["Monstrous Crow of the Scarlet Rot x1"],
+          "notes": "CR 21 solo boss. See encounter sidebar for full mechanics (rot tracking, trinkets, villain actions, kenku recall).",
+          "dialogue": [
+            "\"Help me... I'm up here...\" (Corwyn's voice, mimicry)",
+            "\"Please \u2014 stop! It's me! You're killing me!\" (Death Throes trigger)",
+            "\"Run... it's too late for me... save yourselves...\" (bait to draw PCs closer)"
+          ]
+        }
+      ],
+      "npcs": [
+        { "name": "Corwyn (Mimicked)", "dialogue": ["\"Help me... please... it hurts...\"", "\"I can hear you! I'm trapped inside!\"", "\"Don't let it take me...\""] }
+      ],
+      "treasure": [
+        { "name": "Gleaming Eye", "description": "Stolen trinket (Foresight). Can be recovered from the crow's corpse.", "value": "priceless" },
+        { "name": "Rattling Chain", "description": "Stolen trinket (Haste). Can be recovered from the crow's corpse.", "value": "priceless" },
+        { "name": "Feathered Charm", "description": "Stolen trinket (Flight + Gust). Can be recovered from the crow's corpse.", "value": "priceless" }
+      ],
+      "dmNotes": [
+        "The Scarlet Rot tracker is the encounter's core mechanic. Keep it visible at all times.",
+        "Death Throes Mimicry auto-triggers at 100 HP. Do not forget this.",
+        "Kenku Recall punishes repeated attacks \u2014 the tracker will flag these automatically.",
+        "The Feint reaction includes a literal prompt to read aloud to the next player."
+      ],
+      "campaignNotes": [],
+      "mapImageUrl": "ruined-temple.png",
+      "senses": {
+        "sight": "Red mist obscures everything beyond 60 ft. Broken arches and columns emerge from the haze like bones. The scarlet mire glows faintly, casting everything in a diseased, amber-red light.",
+        "sound": "The wet shifting of the mire. Distant dripping. The scrape of talons on stone. And Corwyn's voice \u2014 screaming, pleading, warning \u2014 echoing from everywhere and nowhere.",
+        "smell": "Copper and rot. Wet decay. The sharp, chemical burn of something fungal and wrong.",
+        "touch": "The air is thick and humid, coating exposed skin in a faint red moisture. The stone underfoot is slick and crumbling.",
+        "instinct": "Something is watching you from above. Every shadow could be the crow. Every scream could be real."
+      },
+      "ambiance": {
+        "music": [
+          { "name": "Scarlet Rot Boss", "description": "Oppressive, diseased atmosphere with building dread", "searchTerm": "elden ring scarlet rot boss music dark ambient", "tags": ["boss", "combat"] },
+          { "name": "Ruined Cathedral", "description": "Eerie exploration of a corrupted holy place", "searchTerm": "dark souls ruined cathedral ambient dark choir", "tags": ["exploration", "tension"] }
+        ],
+        "sounds": [
+          { "name": "Wet Rot Ambience", "description": "Bubbling, shifting liquid. Dripping. Organic squelching.", "searchTerm": "swamp ambience bubbling rot dark fantasy", "tags": ["exploration", "combat"] },
+          { "name": "Crow Shrieks", "description": "Distant bird-like screeches mixed with human screams", "searchTerm": "crow shriek horror sound effect dark", "tags": ["combat", "tension"] }
+        ]
+      }
+    }
+  ]
+}

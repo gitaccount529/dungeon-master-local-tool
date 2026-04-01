@@ -1,26 +1,239 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1a1110;
+  --foreground: #e0d5cf;
+  --card: #221815;
+  --card-alt: #1e1412;
+  --border: #33221a;
+  --accent: #ff6b35;
+  --accent-secondary: #ff9466;
+  --text-muted: #aa7766;
+  --text-body: #e0d5cf;
+  --text-bright: #f0e0d0;
+  --red: #ff4444;
+  --green: #44cc66;
+  --blue: #66bbff;
+  --purple: #cc66ff;
+  --gold: #ffd700;
+  --yellow: #ffaa44;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-card: var(--card);
+  --color-card-alt: var(--card-alt);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-secondary: var(--accent-secondary);
+  --color-muted: var(--text-muted);
+  --color-body: var(--text-body);
+  --color-bright: var(--text-bright);
+  --color-danger: var(--red);
+  --color-success: var(--green);
+  --color-info: var(--blue);
+  --color-magic: var(--purple);
+  --color-gold: var(--gold);
+  --color-warning: var(--yellow);
+  --font-sans: 'Inter', 'Segoe UI', system-ui, sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+/* Scrollbar styling for volcanic theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--card-alt);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Read-aloud text styling */
+.read-aloud {
+  font-style: italic;
+  font-size: 1.1em;
+  color: var(--accent-secondary);
+  border-left: 3px solid var(--accent);
+  padding-left: 1rem;
+}
+
+/* Dialogue styling */
+.dialogue {
+  font-style: italic;
+  color: var(--blue);
+}
+
+.dialogue .speaker {
+  font-variant: small-caps;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* Lava ambient animation for player idle screen */
+@keyframes lava-pulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+@keyframes lava-flow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.lava-ambient {
+  background: linear-gradient(
+    135deg,
+    #1a1110 0%,
+    #2a1510 25%,
+    #3a1a10 50%,
+    #2a1510 75%,
+    #1a1110 100%
+  );
+  background-size: 400% 400%;
+  animation: lava-flow 8s ease infinite;
+}
+
+/* Smooth fade transitions */
+.spotlight-transition {
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* ── Combat View Animations ── */
+
+/* Turn change: slide-up + fade-in */
+@keyframes combat-turn-enter {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.combat-turn-enter {
+  animation: combat-turn-enter 0.4s ease-out;
+}
+
+/* NOW ACTING pulsing label */
+@keyframes combat-now-acting-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+.combat-now-acting {
+  animation: combat-now-acting-pulse 2s ease-in-out infinite;
+}
+
+/* Timer pulse when < 10 seconds */
+@keyframes combat-timer-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+}
+.combat-timer-pulse {
+  animation: combat-timer-pulse 0.8s ease-in-out infinite;
+}
+
+/* TIME! flash when timer expires */
+@keyframes combat-time-flash {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+.combat-time-flash {
+  animation: combat-time-flash 0.5s ease-in-out infinite;
+}
+
+/* ── Scarlet Rot Encounter Animations ── */
+
+/* Rot ambient background for player view */
+@keyframes rot-flow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.rot-ambient {
+  background: linear-gradient(
+    135deg,
+    #1A0A0A 0%,
+    #2a0e0e 25%,
+    #1a0505 50%,
+    #2a0e0e 75%,
+    #1A0A0A 100%
+  );
+  background-size: 400% 400%;
+  animation: rot-flow 10s ease infinite;
+}
+
+/* Rot tier transition pulse */
+@keyframes rot-tier-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(139, 0, 0, 0); }
+  50% { box-shadow: 0 0 15px 3px rgba(139, 0, 0, 0.5); }
+}
+.rot-tier-pulse {
+  animation: rot-tier-pulse 0.6s ease-in-out 3;
+}
+
+/* Death Throes trigger alert */
+@keyframes death-throes-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0); border-color: rgba(255, 0, 0, 0.5); }
+  50% { box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.3); border-color: rgba(255, 0, 0, 1); }
+}
+.death-throes-alert {
+  animation: death-throes-pulse 1s ease-in-out infinite;
+}
+
+/* Encounter sidebar scrollbar */
+.encounter-sidebar-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(139, 0, 0, 0.3) transparent;
+}
+.encounter-sidebar-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.encounter-sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.encounter-sidebar-scroll::-webkit-scrollbar-thumb {
+  background: rgba(139, 0, 0, 0.3);
+  border-radius: 2px;
+}
+
+/* Initiative sidebar scrollbar styling */
+.combat-sidebar-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.15) transparent;
+}
+.combat-sidebar-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.combat-sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.combat-sidebar-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.15);
+  border-radius: 2px;
 }

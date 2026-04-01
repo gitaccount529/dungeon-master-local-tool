@@ -1,0 +1,23 @@
+{
+  "id": "cloud-fang-keep",
+  "name": "Cloud Fang Keep",
+  "description": "A crumbling fortress atop Frigid Summit, lair of Lady Emer — a medusa assassin hunting the party on behalf of the Daughter of Ash. The hunters must escape her petrifying gaze, navigate illusionist traps, and survive her guardians to break free.",
+  "headerTitle": {
+    "primary": "CLOUD FANG",
+    "secondary": "KEEP"
+  },
+  "theme": {
+    "accent": "#7bafd4",
+    "accentSecondary": "#a8c8e0",
+    "background": "#0f1318",
+    "card": "#151b22",
+    "cardAlt": "#121820",
+    "border": "#1e2a38",
+    "textMuted": "#6688aa",
+    "textBody": "#cfd8e0",
+    "textBright": "#e0e8f0"
+  },
+  "referencePdf": null,
+  "createdAt": "2026-03-31T00:00:00.000Z",
+  "updatedAt": "2026-03-31T00:00:00.000Z"
+}

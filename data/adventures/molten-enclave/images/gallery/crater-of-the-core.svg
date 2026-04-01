@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="lava" cx="50%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="50%" stop-color="#c0392b"/>
+      <stop offset="100%" stop-color="#1a0a00"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#ff9500" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff6b35" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="#1a0a00"/>
+  <ellipse cx="400" cy="400" rx="350" ry="200" fill="url(#lava)"/>
+  <ellipse cx="400" cy="380" rx="200" ry="120" fill="url(#glow)"/>
+  <path d="M100,300 Q200,200 300,280 Q400,180 500,260 Q600,180 700,300 L700,600 L100,600 Z" fill="#2d1810" opacity="0.8"/>
+  <ellipse cx="400" cy="420" rx="150" ry="80" fill="#ff6b35" opacity="0.4"/>
+  <text x="400" y="550" text-anchor="middle" font-family="serif" font-size="28" fill="#ff9500" opacity="0.7">The Crater of the Core</text>
+</svg>

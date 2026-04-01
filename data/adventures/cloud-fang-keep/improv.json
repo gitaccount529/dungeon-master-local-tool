@@ -1,0 +1,79 @@
+{
+  "nameLabel": "Basilisk Name",
+  "names": [
+    "Thessara", "Vyrenne", "Kossuth", "Delmara", "Ophidia", "Nathaire",
+    "Gormund", "Selkaris", "Pyraxis", "Valdris", "Morvaine", "Zephyra"
+  ],
+  "giantNames": [
+    "Thessara", "Vyrenne", "Kossuth", "Delmara", "Ophidia", "Nathaire",
+    "Gormund", "Selkaris", "Pyraxis", "Valdris", "Morvaine", "Zephyra"
+  ],
+  "personalityQuirks": [
+    "Constantly adjusts their hair or clothing — deeply self-conscious about appearance",
+    "Speaks to animals as if they understand complex sentences",
+    "Refuses to make direct eye contact — an old habit from living near medusas",
+    "Collects small stones and arranges them in patterns when nervous",
+    "Hums funeral dirges under their breath without realizing it",
+    "Tastes the air like a snake before entering any new room",
+    "Carries a mirror and checks it compulsively — terrified of petrification",
+    "Speaks only in whispers inside the keep, convinced the walls listen",
+    "Apologizes to inanimate objects when bumping into them",
+    "Flinches at sudden movements — has been ambushed too many times"
+  ],
+  "battleCries": [
+    { "cry": "\"Guests are always welcome to stay. Intruders stay forever.\"", "narrative": "Lady Emer's voice rings through the keep, equal parts invitation and death sentence." },
+    { "cry": "\"Don't look away, darling. It's rude.\"", "narrative": "Emer's golden eyes blaze with petrifying power as she locks gazes with her target." },
+    { "cry": "\"The Daughter sends her regards.\"", "narrative": "A cold promise — Lady Emer is fulfilling a contract, and she never fails." },
+    { "cry": "\"You escaped fire giants. Let me show you something colder.\"", "narrative": "Lady Emer acknowledges the hunters' past with a predator's respect." },
+    { "cry": "\"Hold still. This will only hurt until it doesn't.\"", "narrative": "Emer's voice is almost gentle as stone begins to crawl up her target's limbs." },
+    { "cry": "\"My garden needs new statues. You'll look lovely in the spring.\"", "narrative": "The medusa gestures at her petrified collection with genuine artistic pride." }
+  ],
+  "environmentalEvents": [
+    { "name": "Ceiling Collapse", "narrative": "A section of the keep's ancient ceiling gives way. Chunks of stone and a shower of snow crash down.", "mechanic": "DC 13 Dexterity saving throw or 2d6 bludgeoning damage. Area becomes difficult terrain." },
+    { "name": "Flemgot Spore Cloud", "narrative": "A gust of wind disturbs a moldy tapestry, releasing a cloud of mind-altering spores.", "mechanic": "DC 16 Constitution saving throw or poisoned for 10 minutes (disadvantage on saves vs. frightened)." },
+    { "name": "Chandelier Flicker", "narrative": "The enchanted chandeliers flicker wildly, casting dancing shadows that briefly make every surface look like it's moving.", "mechanic": "DC 14 Wisdom saving throw or frightened for 1 round (illusion magic)." },
+    { "name": "Basilisk Tracks", "narrative": "Fresh claw marks in the stone — eight-legged, deep grooves. Something large passed through recently.", "mechanic": "No mechanical effect. Warns of basilisks nearby." },
+    { "name": "Serpent Hair Hiss", "narrative": "From somewhere in the keep, you hear the distinctive hissing of dozens of small serpents. Lady Emer is nearby.", "mechanic": "No mechanical effect. Alerts party to Lady Emer's proximity." },
+    { "name": "Frozen Wind Blast", "narrative": "A gust of freezing wind screams through a gap in the keep's walls, carrying stinging ice crystals.", "mechanic": "DC 12 Constitution saving throw or 1d4 cold damage and disadvantage on next attack roll." },
+    { "name": "Crumbling Wall", "narrative": "A section of wall gives way under the slightest pressure, revealing a narrow passage — or a 60-foot drop.", "mechanic": "DC 14 Dexterity saving throw to avoid falling if leaning against the wall." },
+    { "name": "Illusory Sound", "narrative": "The keep's residual illusion magic creates a phantom sound — footsteps, whispered conversation, or a scream from an empty room.", "mechanic": "DC 15 Investigation to identify as illusory. Can lure party into ambush position." }
+  ],
+  "flavorText": [
+    {
+      "category": "Cold and Altitude",
+      "texts": [
+        "Your breath comes in sharp, thin gasps. The air at this altitude barely fills your lungs.",
+        "Ice crusts your eyelashes. Every blink is a conscious effort.",
+        "The cold doesn't bite — it seeps. It finds every gap in your armor, every patch of exposed skin.",
+        "Snow whips through holes in the keep's ceiling, dusting the stone floors with white powder that never seems to melt."
+      ]
+    },
+    {
+      "category": "Stone and Petrification",
+      "texts": [
+        "The statue's expression is frozen mid-scream. Whoever this was, they died terrified.",
+        "Stone dust coats everything. Some of it was walls once. Some of it was people.",
+        "You catch yourself avoiding the statues' eyes, as if they might still carry the medusa's curse.",
+        "The stone garden's flowers grow from the cracks in petrified flesh. Beauty feeding on horror."
+      ]
+    },
+    {
+      "category": "Lady Emer's Presence",
+      "texts": [
+        "A quill lies on the floor, broken mid-word. The poetry it was writing is terrible.",
+        "Serpent scales glint in the chandelier light — shed like hair, everywhere Emer walks.",
+        "The perfume is strongest here. She passed through recently.",
+        "A half-finished poem on the desk: 'The stone remembers what the flesh forgets / And I remember everything.'"
+      ]
+    },
+    {
+      "category": "Illusionist's Legacy",
+      "texts": [
+        "The walls shimmer at the edges of your vision. This keep was built by someone who didn't trust reality.",
+        "A shadow moves where nothing casts one. The illusionist's magic is fading, but not gone.",
+        "The chandeliers cast colored light that shouldn't be possible from simple flames.",
+        "For a moment, the wall looks paper-thin. Then solid stone again. You're not sure which was the illusion."
+      ]
+    }
+  ]
+}
